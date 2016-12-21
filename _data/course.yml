@@ -1,6 +1,5 @@
-number: ARTEBA
-name: Advanced Research Tools for Economics and Business Administration
+number: LaTeX-Workshop
+name: LaTeX workshop for Economics and Business Administration
 description: >-
-  Two workshops of two hours on more advanced tools to be used in the economics and business administration domain, i.e. LaTeX, 
-  github and reference managers. 
-term: Spring 2015X
+  Two workshops of two hours on more advanced tools (i.e., LaTeX) to be used in the economics and business administration domain, including the use of reference managers. 
+term: Spring 2016
