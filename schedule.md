@@ -6,9 +6,9 @@ layout: default
 
 ## Schedule
 
-### Friday 15 Jan: 15:30-17:15 Introduction and basics:
+### Thursday 12 Jan: 13:30-15:15 Introduction and basics:
 
-#### Location: 9A-41
+#### Location: TBA
 
 1.	Introduction: why is there a need for these tools? (10 min)
 2.	Introduction to project management and version control (10 min)
@@ -24,9 +24,9 @@ layout: default
   -	Working with *TexStudio*
   -	Hands on exercises (headers, figures, tables, equations)
 
-### Wednesday 3 Feb: 9:00-10:45 More advanced use of *LaTeX*
+### Thurday 26 Jan: 13:30-15:15 More advanced use of *LaTeX*
 
-#### Location: 2A-32
+#### Location: TBA
 
 1.  Intriduction (5 min) 
 2.	Use of packages (15 min)
