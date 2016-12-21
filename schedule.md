@@ -24,7 +24,7 @@ layout: default
   -	Working with *TexStudio*
   -	Hands on exercises (headers, figures, tables, equations)
 
-### Thurday 26 Jan: 13:30-15:15 More advanced use of *LaTeX*
+### Thursday 26 Jan: 13:30-15:15 More advanced use of *LaTeX*
 
 #### Location: TBA
 
