@@ -41,6 +41,6 @@ No
 
 #### When and where?
 
-Friday, January 15 : 15:30 - 17:15 in 9A-41
+Thursday, January 12 : 13:30 - 15:15 in TBA
 
-Friday, January 29 : 15:30 - 17:15 in 12A32 
+Thursday, January 26 : 13:30 - 15:15 in TBA 
