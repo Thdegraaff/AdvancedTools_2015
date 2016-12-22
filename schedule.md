@@ -15,7 +15,7 @@ layout: default
 1.	Introduction: why is there a need for these tools? (10 min)
 	- Introduction to *LaTeX* (20 min)
       + What is it? 
-	  + Why is it different from Wordprocessing application (such as *Word*)?
+	  + Why is it different from Word?
       + Why do you need two programs (the program itself and an editor)?
       + Why is it cool?
       + Are we not doing straightforward things in a very complex way?
