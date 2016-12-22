@@ -25,7 +25,7 @@ layout: default
 
 ##### Second hour
 
-First steps with *Latex* (45 min)
+1. First steps with *Latex* (45 min)
 	- Working with *TexStudio*
 	- Hands on exercises 
 	  + headers
