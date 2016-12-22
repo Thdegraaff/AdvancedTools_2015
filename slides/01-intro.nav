@@ -15,69 +15,28 @@
 \headcommand {\beamer@subsectionentry {0}{2}{1}{4}{Introduction}}\headcommand {\beamer@subsectionpages {4}{3}}
 \headcommand {\slideentry {2}{1}{1}{4/4}{Introduction}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{5}{Why \LaTeX }}\headcommand {\beamer@subsectionpages {4}{4}}
-\headcommand {\slideentry {2}{2}{1}{5/5}{Why \LaTeX }{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{5}{Why \LaTeX {}}}\headcommand {\beamer@subsectionpages {4}{4}}
+\headcommand {\slideentry {2}{2}{1}{5/5}{Why \LaTeX {}}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\slideentry {2}{2}{2}{6/6}{Why \LaTeX }{0}}
+\headcommand {\slideentry {2}{2}{2}{6/6}{Why \LaTeX {}}{0}}
 \headcommand {\beamer@framepages {6}{6}}
 \headcommand {\beamer@subsectionentry {0}{2}{3}{7}{Technicalities}}\headcommand {\beamer@subsectionpages {5}{6}}
 \headcommand {\slideentry {2}{3}{1}{7/7}{Technicalities}{0}}
 \headcommand {\beamer@framepages {7}{7}}
 \headcommand {\slideentry {2}{3}{2}{8/8}{Technicalities}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\sectionentry {3}{Workflow: a bigger picture}{9}{Workflow: a bigger picture}{0}}
-\headcommand {\beamer@sectionpages {4}{8}}
-\headcommand {\beamer@subsectionpages {7}{8}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{9}{Why bother?}}\headcommand {\beamer@subsectionpages {9}{8}}
-\headcommand {\slideentry {3}{1}{1}{9/9}{Why bother?}{0}}
+\headcommand {\slideentry {2}{3}{3}{9/9}{Technicalities}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\slideentry {3}{1}{2}{10/10}{Why bother?}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{10}{Folder structure and file names}}\headcommand {\beamer@subsectionpages {7}{9}}
+\headcommand {\slideentry {2}{4}{1}{10/10}{Folder structure and file names}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {3}{1}{3}{11/11}{Why bother?}{0}}
+\headcommand {\sectionentry {3}{First steps}{11}{First steps}{0}}
+\headcommand {\beamer@sectionpages {4}{10}}
+\headcommand {\beamer@subsectionpages {10}{10}}
+\headcommand {\slideentry {3}{0}{1}{11/11}{}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\slideentry {3}{1}{4}{12/12}{Why bother?}{0}}
-\headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {3}{1}{5}{13/13}{Why bother?}{0}}
-\headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{14}{Folder structure and file names}}\headcommand {\beamer@subsectionpages {9}{13}}
-\headcommand {\slideentry {3}{2}{1}{14/14}{Folder structure and file names}{0}}
-\headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {3}{2}{2}{15/15}{Folder structure and file names}{0}}
-\headcommand {\beamer@framepages {15}{15}}
-\headcommand {\sectionentry {4}{Reference managers}{16}{Reference managers}{0}}
-\headcommand {\beamer@sectionpages {9}{15}}
-\headcommand {\beamer@subsectionpages {14}{15}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{16}{Why?}}\headcommand {\beamer@subsectionpages {16}{15}}
-\headcommand {\slideentry {4}{1}{1}{16/16}{Why?}{0}}
-\headcommand {\beamer@framepages {16}{16}}
-\headcommand {\sectionentry {5}{\LaTeX \nobreakspace {}lab}{17}{\LaTeX \nobreakspace {}lab}{0}}
-\headcommand {\beamer@sectionpages {16}{16}}
-\headcommand {\beamer@subsectionpages {16}{16}}
-\headcommand {\beamer@subsectionentry {0}{5}{1}{17}{The basics}}\headcommand {\beamer@subsectionpages {17}{16}}
-\headcommand {\slideentry {5}{1}{1}{17/17}{The basics}{0}}
-\headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {5}{1}{2}{18/18}{The basics}{0}}
-\headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {5}{1}{3}{19/19}{The basics}{0}}
-\headcommand {\beamer@framepages {19}{19}}
-\headcommand {\slideentry {5}{1}{4}{20/20}{The basics}{0}}
-\headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {5}{1}{5}{21/21}{The basics}{0}}
-\headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {5}{1}{6}{22/22}{The basics}{0}}
-\headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {5}{1}{7}{23/23}{The basics}{0}}
-\headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {5}{1}{8}{24/24}{The basics}{0}}
-\headcommand {\beamer@framepages {24}{24}}
-\headcommand {\sectionentry {6}{Next time}{25}{Next time}{0}}
-\headcommand {\beamer@sectionpages {17}{24}}
-\headcommand {\beamer@subsectionpages {17}{24}}
-\headcommand {\beamer@subsectionentry {0}{6}{1}{25}{Next workshop}}\headcommand {\beamer@subsectionpages {25}{24}}
-\headcommand {\slideentry {6}{1}{1}{25/25}{Next workshop}{0}}
-\headcommand {\beamer@framepages {25}{25}}
-\headcommand {\beamer@partpages {1}{25}}
-\headcommand {\beamer@subsectionpages {25}{25}}
-\headcommand {\beamer@sectionpages {25}{25}}
-\headcommand {\beamer@documentpages {25}}
-\headcommand {\def \inserttotalframenumber {25}}
+\headcommand {\beamer@partpages {1}{11}}
+\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\beamer@sectionpages {11}{11}}
+\headcommand {\beamer@documentpages {11}}
+\headcommand {\def \inserttotalframenumber {11}}

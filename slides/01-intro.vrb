@@ -1,24 +1,18 @@
-\frametitle{Inserting equations}
+\frametitle{Document structure}
+\begin{minted}{latex}
+\documentclass{article}
+ % a % indicates line is a comment
+ % This area is called preamble
+\title{This is brilliant}
+\author{Thomas de Graaff}
 
-\begin{itemize}
-\item
-  Inline: \$e=mc\^{}2\$ will be \(e=mc^2\) or
+\begin{document}
 
-\begin{verbatim}
-\begin{equation}
-e=mc^2
-\end{equation}
-\end{verbatim}
+\maketitle
 
-  will render in
+\section{Introduction}
 
-  \begin{equation}
-  e=mc^2
-  \end{equation}
-\item
-  Equations can be as complex (cool) as you want
-\item
-  \href{http://estudijas.lu.lv/pluginfile.php/14809/mod_page/content/16/instrukcijas/matematika_moodle/LaTeX_Symbols.pdf}{Cheat
-  sheet mathematics:}
-\end{itemize}
+lorem ipsum ...
 
+\end{document}
+\end{minted}

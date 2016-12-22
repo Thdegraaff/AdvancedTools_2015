@@ -1,16 +1,10 @@
 \beamer@endinputifotherversion {3.36pt}
+\select@language {english}
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{Introduction}{2}{0}{1}
 \beamer@sectionintoc {2}{\LaTeX }{4}{0}{2}
 \beamer@subsectionintoc {2}{1}{Introduction}{4}{0}{2}
-\beamer@subsectionintoc {2}{2}{Why \LaTeX }{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Why \LaTeX {}}{5}{0}{2}
 \beamer@subsectionintoc {2}{3}{Technicalities}{7}{0}{2}
-\beamer@sectionintoc {3}{Workflow: a bigger picture}{9}{0}{3}
-\beamer@subsectionintoc {3}{1}{Why bother?}{9}{0}{3}
-\beamer@subsectionintoc {3}{2}{Folder structure and file names}{14}{0}{3}
-\beamer@sectionintoc {4}{Reference managers}{16}{0}{4}
-\beamer@subsectionintoc {4}{1}{Why?}{16}{0}{4}
-\beamer@sectionintoc {5}{\LaTeX \nobreakspace {}lab}{17}{0}{5}
-\beamer@subsectionintoc {5}{1}{The basics}{17}{0}{5}
-\beamer@sectionintoc {6}{Next time}{25}{0}{6}
-\beamer@subsectionintoc {6}{1}{Next workshop}{25}{0}{6}
+\beamer@subsectionintoc {2}{4}{Folder structure and file names}{10}{0}{2}
+\beamer@sectionintoc {3}{First steps}{11}{0}{3}

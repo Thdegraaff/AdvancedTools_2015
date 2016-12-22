@@ -33,7 +33,7 @@ output:
 
 - In the *social sciences* few attention to what tools to use (and why they make sense)
 
-- \LaTeX is used very much in the scientific world and can *work* together with
+- \LaTeX{} is used very much in the scientific world and can *work* together with
 	- Stata/R
 	- Markdown/HTML
 	- Reference managers
@@ -80,7 +80,7 @@ output:
         - Specific editors: TexStudio, TexShop, RStudio
         - General editors: Sublime, TextMate, Notepad++, Vim, Emacs
         
-## Why \LaTeX
+## Why \LaTeX{}
 
 ### Disadvantages
 
@@ -91,10 +91,10 @@ output:
     - hurray for [cheat sheets](https://wch.github.io/latexsheet/latexsheet.pdf) and Google
     
 - Difficult to cooperate with people that went to the *dark side*
-- *Basic* \LaTeX has *difficulties* with incorporating new fonts (Hoefler, minion pro)
+- *Basic* \LaTeX{} has *difficulties* with incorporating new fonts (Hoefler, minion pro)
 
     - XeTeX 
-    - For the purists: \LaTeX\ does it right [(\LaTeX vs Word)](http://oestrem.com/thingstwice/2007/05/latex-vs-word-vs-writer/)
+    - For the purists: \LaTeX{} does it right [(\LaTeX{} vs Word)](http://oestrem.com/thingstwice/2007/05/latex-vs-word-vs-writer/)
     
 ### Advantages
 
@@ -117,7 +117,7 @@ output:
     
 - You then compile it
 
-    - \LaTeX is unforgiving: if there is an error, usually it does not compile
+    - \LaTeX{} is unforgiving: if there is an error, usually it does not compile
     - Typically, errors are missing brackets or parentheses. 
     
 - Typically, source `.tex` file is compiled into `.pdf`
@@ -232,7 +232,7 @@ Several applications out there:
     - Which can then automatically find \LaTeX\
     
 ### Basic set-up of a \LaTeX\ file
-```{}
+```{latex}
 \documentclass[]{article}
 %opening
 \title{}
@@ -265,13 +265,13 @@ Create an abstract, title, authors, date, table of contents and create a section
 ### Further text control
 
 - itemization
-```{}
+```{latex}
 \begin{itemize}
     \item bla bla bla
 \end{itemize}
 ```
 - enumeration
-```{}
+```{latex}
 \begin{enumerate}
     \item bla bla bla
 \end{enumerate}
