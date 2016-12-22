@@ -26,12 +26,12 @@ layout: default
 ##### Second hour
 
 First steps with *Latex* (45 min)
-  -	Working with *TexStudio*
-  -	Hands on exercises 
-	+ headers
-	+ figures
-	+ tables 
-	+ equations
+	- Working with *TexStudio*
+	- Hands on exercises 
+	  + headers
+	  + figures
+	  + tables 
+	  + equations
 
 ### Thursday 26 Jan: 13:30-15:15 More advanced use of *LaTeX*
 
