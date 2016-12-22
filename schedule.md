@@ -13,13 +13,14 @@ layout: default
 ##### First hour
 
 1.	Introduction: why is there a need for these tools? (10 min)
-  - Introduction to *LaTeX* (20 min)
-    + What is it? 
-	+ Why is it different from Wordprocessing application (such as *Word*)?
-    + Why do you need two programs (the program itself and an editor)?
-    + Why is it cool?
-    + Are we not doing straightforward things in a very complex way?
-  - Introduction to reference managers
+	- Introduction to *LaTeX* (20 min)
+      + What is it? 
+	  + Why is it different from Wordprocessing application (such as *Word*)?
+      + Why do you need two programs (the program itself and an editor)?
+      + Why is it cool?
+      + Are we not doing straightforward things in a very complex way?
+	
+	- Introduction to reference managers
 2. Setting up *LaTeX* and *RStudio* (25 minutes	
 
 ##### Second hour
