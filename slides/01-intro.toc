@@ -2,9 +2,9 @@
 \select@language {english}
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{Introduction}{2}{0}{1}
-\beamer@sectionintoc {2}{\LaTeX }{4}{0}{2}
+\beamer@sectionintoc {2}{\LaTeX {}}{4}{0}{2}
 \beamer@subsectionintoc {2}{1}{Introduction}{4}{0}{2}
-\beamer@subsectionintoc {2}{2}{Why \LaTeX {}}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Why \LaTeX {}?}{5}{0}{2}
 \beamer@subsectionintoc {2}{3}{Technicalities}{7}{0}{2}
 \beamer@subsectionintoc {2}{4}{Folder structure and file names}{10}{0}{2}
 \beamer@sectionintoc {3}{First steps}{11}{0}{3}

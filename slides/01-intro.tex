@@ -3,6 +3,8 @@
 \usecolortheme{beaver}
 \usefonttheme{structurebold}
 \usepackage{amssymb,amsmath}
+\definecolor{links}{HTML}{2A1B81}
+\hypersetup{colorlinks,linkcolor=,urlcolor=links}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{microtype}
@@ -11,6 +13,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{pgf, microtype, booktabs, times, etex, minted}
 \usemintedstyle{emacs}
+
 
 \beamertemplatenavigationsymbolsempty
 
@@ -30,14 +33,13 @@
 
 \begin{itemize}
 \item
-  In the \emph{social sciences} few attention to what tools to use (and
-  why they make sense)
+  In the \emph{social sciences} few attention to what tools to use (and why they make sense)
 \item
-  \LaTeX{} is used very much in the scientific world and can \emph{work} together with
+  \LaTeX{} is used very much in the scientific world and \emph{works} brilliantly together with
   \begin{itemize}
-  \item \texttt{Stata}/\texttt{R}
-  \item Markdown/HTML
-  \item Reference managers
+  \item statistical packages, such as \texttt{Stata} and \texttt{R},
+  \item markdown/HTML,
+  \item reference managers.
   \end{itemize}
   \item Why \emph{I} want to give this workshop
   \begin{itemize}
@@ -55,12 +57,12 @@
 
   \begin{itemize}
   \item
-    Why \LaTeX
+   \LaTeX{}
   \item
-    Why reference managers
+    Reference managers
   \end{itemize}
 \item
-  Give an introduction to \LaTeX
+  Give an introduction to \LaTeX{}
 
   \begin{itemize}
   \item
@@ -73,14 +75,13 @@
 
   \begin{itemize}
   \item
-    Tell you what applications to use (\textbf{you} need to decide and
-    make a \textbf{well-informed} decision)
+    Tell you what applications to use (\textbf{you} need to decide and make a \textbf{well-informed} decision)
   \end{itemize}
 \end{itemize}
 
 \end{frame}
 
-\texttt{\section{\texorpdfstring{\LaTeX}{}}\label{section}
+\texttt{\section{\LaTeX{}}\label{section}
 
 \subsection{Introduction}\label{introduction-2}
 
@@ -114,7 +115,7 @@
 
 \end{frame}
 
-\subsection{Why \LaTeX{}}\label{why}
+\subsection{Why \LaTeX{}?}\label{why}
 
 \begin{frame}{Disadvantages}
 
@@ -140,8 +141,7 @@
 
   \begin{itemize}
   \item
-    XeTeX
-  \item
+    XeTeX  \item
     For the purists: \LaTeX{} does it right
     \href{http://oestrem.com/thingstwice/2007/05/latex-vs-word-vs-writer/}{(\LaTeX{}
     vs Word)}
@@ -161,8 +161,7 @@
   Consistent lay-out throughout the whole document (including tables,
   appendices, formulas, source code, etc)
 \item
-  Internal references are a breeze (references, tables of\ldots{},
-  indices)
+  Internal references are a breeze (references, ToC, ToT \ldots{})
 \item
   Forced to structure documents
 \item
