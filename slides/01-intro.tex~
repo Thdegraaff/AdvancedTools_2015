@@ -11,7 +11,7 @@
 \usepackage{longtable, booktabs}
 \usepackage[english]{babel}
 \usepackage{pgf, microtype, booktabs, times, etex, minted}
-%\usemintedstyle{emacs}
+\usemintedstyle{emacs}
 \beamertemplatenavigationsymbolsempty
 
 \title{\LaTeX{} for Economics and Business Administration}
@@ -29,7 +29,7 @@
 
 \begin{itemize}
 \item
-  In the \emph{social sciences} few attention to what tools to use (and why)
+  In the \emph{social sciences} few attention to what tools to use (and why they make sense)
 \item
   \LaTeX{} is used very much in the scientific world and \emph{works} brilliantly together with
   \begin{itemize}
@@ -306,8 +306,3 @@ lorem ipsum ...
 
 
 \end{document}
-
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: t
-%%% End:

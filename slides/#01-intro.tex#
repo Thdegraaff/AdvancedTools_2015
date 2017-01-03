@@ -1,3 +1,4 @@
+% !-shell-escape
 \documentclass[ignorenonframetext]{beamer}
 \usetheme{Darmstadt}
 \usecolortheme{beaver}
@@ -283,23 +284,27 @@ names}\label{folder-structure-and-file-names}
 
 \small
 \begin{frame}[fragile]{Document structure}
-\begin{minted}{latex}
-\documentclass{article}
- % a % indicates line is a comment
- % This area is called preamble
-\title{This is brilliant}
-\author{Thomas de Graaff}
+  % \begin{minted}{latex}
 
-\begin{document}
 
-\maketitle
-
-\section{Introduction}
-
-lorem ipsum ...
-	
-\end{document}
-\end{minted}
+  
+  
+  % \documentclass{article}
+% % a % indicates line is a comment
+% % This area is called preamble
+%\title{This is brilliant}
+%\author{Thomas de Graaff}
+%
+%\begin{document}
+%
+%\maketitle
+%
+%\section{Introduction}
+%
+%lorem ipsum ...
+%	
+%\end{document}
+%\end{minted}
 \end{frame}
 
 
