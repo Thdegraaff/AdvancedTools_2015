@@ -6,13 +6,13 @@
 
 \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}document\PYG{n+nb}{\PYGZcb{}}
 
-	\PYG{k}{\PYGZbs{}maketitle}
+\PYG{k}{\PYGZbs{}maketitle}
 
-	\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}abstract\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}abstract\PYG{n+nb}{\PYGZcb{}}
 
-	\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}abstract\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}abstract\PYG{n+nb}{\PYGZcb{}}
 
-	\PYG{k}{\PYGZbs{}section}\PYG{n+nb}{\PYGZob{}\PYGZcb{}}
+\PYG{k}{\PYGZbs{}section}\PYG{n+nb}{\PYGZob{}\PYGZcb{}}
 
 \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}document\PYG{n+nb}{\PYGZcb{}}
 \end{Verbatim}

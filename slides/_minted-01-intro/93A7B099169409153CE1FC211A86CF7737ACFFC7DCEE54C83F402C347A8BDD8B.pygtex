@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+One paragraph
+
+Second       paragraph (just one white space)
+\end{Verbatim}

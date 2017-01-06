@@ -74,10 +74,8 @@
   Give an introduction to \LaTeX{}
 
   \begin{itemize}
-  \item
-    First the basics
-  \item
-    Next workshop: some advanced stuff
+	  \item First the basics + using references
+	  \item Next workshop: some advanced stuff
   \end{itemize}
 \item
   What \emph{I} do not want
@@ -308,7 +306,13 @@ names}\label{folder-structure-and-file-names}
 \subsection{How to work with TeXstudio}
 
 \begin{frame}{A quick tour}
-	content...
+	\begin{itemize}
+		\item Preferences
+		\newline
+		\item Keyboard shortcuts
+		\newline
+		\item LaTeX dropdown menu
+	\end{itemize}
 \end{frame}
 
 \section{Exercises}
@@ -325,7 +329,7 @@ names}\label{folder-structure-and-file-names}
 	\end{enumerate}
 \end{frame}
 
-\begin{frame}[fragile]{Document structure: Open from template}
+\begin{frame}[fragile]{Exercise 1: Open from template and fill in!}
 \small
 \begin{latexcode}
 \documentclass[]{article}
@@ -335,20 +339,128 @@ names}\label{folder-structure-and-file-names}
 
 \begin{document}
 	
-	\maketitle
+\maketitle
+
+\begin{abstract}
 	
-	\begin{abstract}
-		
-	\end{abstract}
-	
-	\section{}
+\end{abstract}
+
+\section{}
 	
 \end{document}
 \end{latexcode}
 \end{frame}
 
+\begin{frame}[fragile]{Exercise 2: Create a paper structure}
+	\small
+	\begin{latexcode}
+\section{}
+\subsection{}
+\subsubsection{}
+	\end{latexcode}
+Note that the following are used for books
+\small
+\begin{latexcode}
+\part{}
+\chapter{}
+\end{latexcode}
+And for bigger projects:
+\begin{latexcode}
+\include{}
+\input{}
+\end{latexcode}
+\end{frame}
+
+\begin{frame}[fragile]{Intermezzo: preamble}
+Part before \texttt{\textbackslash begin document} is called preamble
+\begin{latexcode}
+\documentclass[]{article}
+
+% This is where packages are loaded 
+% and specific commands are given that 
+% determine how the lay-out!
+	
+\begin{document}
+\end{latexcode}	
+\end{frame}
+
+\begin{frame}[fragile]{Intermezzo: white spaces and special characters}
+An empty line starts a new paragraph and consecutive white spaces are treated as one
+\begin{latexcode}
+One paragraph
+
+Second       paragraph (just one white space)
+\end{latexcode}	
+
+The following characters are reserved \# \$ \% \^ \& \_ \{ \} \~{} \textbackslash and should be used as follows
+\begin{latexcode}
+\# \$ \% \^ \& \_ \{ \} \~{} \textbackslash
+\end{latexcode}	
+So, with a backslash before except for the backslash (does this make sense?)
+\end{frame}
+
+\begin{frame}[fragile]{Exercise 3: Create a table of contents}
+More complex text structures are relatively easy, just insert (after \texttt{\textbackslash begin document})
+\begin{latexcode}
+\tableofcontents
+\listoffigures
+\listoftables
+\end{latexcode}
+\end{frame}
+
+\begin{frame}[fragile]{Lists}
+\begin{itemize}
+	\item Itemization
+\begin{latexcode}
+\begin{itemize}
+	\item blue
+	\item red
+\end{itemize}
+\end{latexcode}	
+	\item Enumeration
+\begin{latexcode}
+\begin{enumerate}
+	\item first item
+	\item second item
+\end{enumerate}
+\end{latexcode}	
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Further text control}
+\begin{itemize}
+\item Bold
+\begin{latexcode}
+\textbf{bold}
+\end{latexcode}		
+\item Emphasize
+\begin{latexcode}
+\textit{italics} or \emph{emphasized}
+\end{latexcode}		
+\end{itemize}
+\end{frame}
 
 
+\begin{frame}{Formula's}
+	content...
+\end{frame}
+
+
+\begin{frame}{Tables}
+	content...
+\end{frame}
+
+\begin{frame}{Figures}
+	content...
+\end{frame}
+
+\begin{frame}{Referencing}
+	content...
+\end{frame}
+
+\begin{frame}{BibTeX}
+	content...
+\end{frame}
 
 \end{document}
 

@@ -1,20 +1,11 @@
-\frametitle{Document structure: Open from template}
-\small
+\frametitle{Further text control}
+\begin{itemize}
+\item Bold
 \begin{latexcode}
-\documentclass[]{article}
-%opening
-\title{}
-\author{}
-
-\begin{document}
-
-	\maketitle
-
-	\begin{abstract}
-
-	\end{abstract}
-
-	\section{}
-
-\end{document}
+\textbf{bold}
 \end{latexcode}
+\item Emphasize
+\begin{latexcode}
+\textit{italics} or \emph{emphasized}
+\end{latexcode}
+\end{itemize}
