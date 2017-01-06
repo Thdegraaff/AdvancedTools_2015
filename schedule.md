@@ -20,8 +20,8 @@ layout: default
       + Why is it cool?
       + Are we not doing straightforward things in a very complex way?
 	
-	- Introduction to reference managers
-2. Setting up *LaTeX* and *RStudio* (25 minutes	
+	- Introduction to the use of reference managers
+2. Setting up *LaTeX* and *TeXstudio* (25 minutes	
 
 ##### Second hour
 

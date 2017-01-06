@@ -21,7 +21,9 @@ Be warned however, deciding to use new tools are usually costly in terms of **ti
 
 #### For whom?
 
-Students who are interested in using *LaTeX* for larger projects such as theses in combination with reference managers (in this case we use *Mendeley*.
+Students who are interested in using *LaTeX* for larger projects such
+as theses in combination with reference managers (in this case we
+mainly use BibTex but also show how to use *Mendeley*).
 
 #### Tuition form
 
