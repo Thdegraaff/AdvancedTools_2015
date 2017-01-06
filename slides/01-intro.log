@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.1)  6 JAN 2017 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.1)  6 JAN 2017 18:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -706,29 +706,27 @@ Package: beamerinnerthemedefault 2014/06/30  (rcs-revision 580088513a67)
 emedefault.sty
 Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeDa
-rmstadt.sty
-Package: beamerthemeDarmstadt 2010/06/17  (rcs-revision d02a7cf4d8ae)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeHa
+nnover.sty
+Package: beamerthemeHannover 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
-emesmoothbars.sty
-Package: beamerouterthemesmoothbars 2010/06/17  (rcs-revision d02a7cf4d8ae)
+emesidebar.sty
+Package: beamerouterthemesidebar 2010/06/17  (rcs-revision d02a7cf4d8ae)
+\beamer@sidebarwidth=\dimen188
+\beamer@headheight=\dimen189
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emeseahorse.sty
+Package: beamercolorthemeseahorse 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
-emerounded.sty
-Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
-emeorchid.sty
-Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
-emewhale.sty
-Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
+emecircles.sty
+Package: beamerinnerthemecircles 2010/06/17  (rcs-revision d02a7cf4d8ae)
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
-emebeaver.sty
-Package: beamercolorthemebeaver 2010/06/17  (rcs-revision d02a7cf4d8ae)
+emedove.sty
+Package: beamercolorthemedove 2012/02/23  (rcs-revision 406bcaf3a3c7)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
 estructurebold.sty
@@ -1064,7 +1062,7 @@ Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
 \MT@toks=\toks45
 \MT@count=\count153
 LaTeX Info: Redefining \textls on input line 774.
-\MT@outer@kern=\dimen188
+\MT@outer@kern=\dimen190
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
 \MT@listname@count=\count154
 
@@ -1087,7 +1085,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTpre=\skip60
 \LTpost=\skip61
 \LTchunksize=\count155
-\LTcapwidth=\dimen189
+\LTcapwidth=\dimen191
 \LT@head=\box53
 \LT@firsthead=\box54
 \LT@foot=\box55
@@ -1100,23 +1098,23 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen190
-\lightrulewidth=\dimen191
-\cmidrulewidth=\dimen192
-\belowrulesep=\dimen193
-\belowbottomsep=\dimen194
-\aboverulesep=\dimen195
-\abovetopsep=\dimen196
-\cmidrulesep=\dimen197
-\cmidrulekern=\dimen198
-\defaultaddspace=\dimen199
+\heavyrulewidth=\dimen192
+\lightrulewidth=\dimen193
+\cmidrulewidth=\dimen194
+\belowrulesep=\dimen195
+\belowbottomsep=\dimen196
+\aboverulesep=\dimen197
+\abovetopsep=\dimen198
+\cmidrulesep=\dimen199
+\cmidrulekern=\dimen256
+\defaultaddspace=\dimen257
 \@cmidla=\count160
 \@cmidlb=\count161
-\@aboverulesep=\dimen256
-\@belowrulesep=\dimen257
+\@aboverulesep=\dimen258
+\@belowrulesep=\dimen259
 \@thisruleclass=\count162
 \@lastruleclass=\count163
-\@thisrulewidth=\dimen258
+\@thisrulewidth=\dimen260
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2016/04/23 3.9r The Babel package
@@ -1127,7 +1125,7 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count164
-\U@D=\dimen259
+\U@D=\dimen261
 LaTeX Info: Redefining \textlatin on input line 1448.
 )
 \l@canadian = a dialect from \language\l@american 
@@ -1153,8 +1151,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen260
-\pgf@nodesepend=\dimen261
+\pgf@nodesepstart=\dimen262
+\pgf@nodesepend=\dimen263
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -1237,8 +1235,8 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count173
 \calc@Bcount=\count174
-\calc@Adimen=\dimen262
-\calc@Bdimen=\dimen263
+\calc@Adimen=\dimen264
+\calc@Bdimen=\dimen265
 \calc@Askip=\skip62
 \calc@Bskip=\skip63
 LaTeX Info: Redefining \setlength on input line 80.
@@ -1272,30 +1270,30 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count178
 \output=\toks51
 \linenoprevgraf=\count179
-\linenumbersep=\dimen264
-\linenumberwidth=\dimen265
+\linenumbersep=\dimen266
+\linenumberwidth=\dimen267
 \c@linenumber=\count180
 \c@pagewiselinenumber=\count181
 \c@LN@truepage=\count182
 \c@internallinenumber=\count183
 \c@internallinenumbers=\count184
-\quotelinenumbersep=\dimen266
-\bframerule=\dimen267
-\bframesep=\dimen268
+\quotelinenumbersep=\dimen268
+\bframerule=\dimen269
+\bframesep=\dimen270
 \bframebox=\box69
 LaTeX Info: Redefining \\ on input line 3056.
 )
 \minted@appexistsfile=\read4
-\FV@BreakIndent=\dimen269
-\FV@BreakSymbolSepLeft=\dimen270
-\FV@BreakSymbolSepRight=\dimen271
-\FV@BreakSymbolIndentLeft=\dimen272
+\FV@BreakIndent=\dimen271
+\FV@BreakSymbolSepLeft=\dimen272
+\FV@BreakSymbolSepRight=\dimen273
+\FV@BreakSymbolIndentLeft=\dimen274
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 688.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-\FV@BreakSymbolIndentRight=\dimen273
+\FV@BreakSymbolIndentRight=\dimen275
 \c@FancyVerbLineBreakLast=\count185
 \FV@LineBox=\box70
 \FV@LineIndentBox=\box71
@@ -1325,8 +1323,8 @@ Library (tcolorbox): 'tcbskins.code.tex' version '3.91'
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen274
-\pgffor@skip=\dimen275
+\pgffor@iter=\dimen276
+\pgffor@skip=\dimen277
 \pgffor@stack=\toks53
 \pgffor@toks=\toks54
 ))
@@ -1338,14 +1336,14 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count189
-\pgfplotmarksize=\dimen276
+\pgfplotmarksize=\dimen278
 )
-\tikz@lastx=\dimen277
-\tikz@lasty=\dimen278
-\tikz@lastxsaved=\dimen279
-\tikz@lastysaved=\dimen280
-\tikzleveldistance=\dimen281
-\tikzsiblingdistance=\dimen282
+\tikz@lastx=\dimen279
+\tikz@lasty=\dimen280
+\tikz@lastxsaved=\dimen281
+\tikz@lastysaved=\dimen282
+\tikzleveldistance=\dimen283
+\tikzsiblingdistance=\dimen284
 \tikz@figbox=\box73
 \tikz@figbox@bg=\box74
 \tikz@tempbox=\box75
@@ -1407,14 +1405,14 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* h-part:(L,W,R)=(59.22636pt, 290.74263pt, 14.22636pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=307.28987pt
+* \textwidth=290.74263pt
 * \textheight=244.6939pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
+* \oddsidemargin=-13.04362pt
+* \evensidemargin=-13.04362pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1436,13 +1434,13 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count198
-\scratchdimen=\dimen283
+\scratchdimen=\dimen285
 \scratchbox=\box78
 \nofMPsegments=\count199
 \nofMParguments=\count266
 \everyMPshowfont=\toks55
 \MPscratchCnt=\count267
-\MPscratchDim=\dimen284
+\MPscratchDim=\dimen286
 \MPnumerator=\count268
 \makeMPintoPDFobject=\count269
 \everyMPtoPDFconversion=\toks56
@@ -1549,8 +1547,6 @@ r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \includegraphics on input line 35.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <6> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 35.
 LaTeX Info: Redefining \microtypecontext on input line 35.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1567,11 +1563,17 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 (./_minted-01-intro/default-pyg-prefix.pygstyle) (./01-intro.nav)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <6> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 35.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 36.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 36.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+msa on input line 35.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1579,7 +1581,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 35.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1587,16 +1589,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 35.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 35.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <5> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 35.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 36.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 36.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
@@ -1607,28 +1599,94 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 36.
- [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 36.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 36.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <5> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 36.
+LaTeX Font Info:    Calculating math sizes for size <4> on input line 36.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 36.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <2.79999> not available
+(Font)              size <5> substituted on input line 36.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <2> not available
+(Font)              size <5> substituted on input line 36.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4> not available
+(Font)              size <5> substituted on input line 36.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <2.79999> not available
+(Font)              size <5> substituted on input line 36.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <2> not available
+(Font)              size <5> substituted on input line 36.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 36.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <2.79999> not available
+(Font)              size <5> substituted on input line 36.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <2> not available
+(Font)              size <5> substituted on input line 36.
+
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <4> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 36.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <2.79999> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 36.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <2> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 36.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <2.79999> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 36.
+[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 62.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsphv.fd
+File: omsphv.fd 
+)
+
+LaTeX Font Warning: Font shape `OMS/phv/bx/n' undefined
+(Font)              using `OMS/phv/m/n' instead
+(Font)              for symbol `textbullet' on input line 62.
+
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 60.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 62.
+LaTeX Font Info:    Font shape `OMS/phv/bx/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 60.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 62.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `OMS/phv/bx/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [2
+[2
 
 ] [3
 
-]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 123.
- [4
+] [4
 
-]
-[5
+] [5
 
 ] [6
 
@@ -1640,18 +1698,21 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
  (./01-intro.vrb) [8
 
 ]
-<fig/process.png, id=401, 1047.39131pt x 571.87566pt>
+<fig/process.png, id=209, 1047.39131pt x 571.87566pt>
 File: fig/process.png Graphic file (type png)
  <use fig/process.png>
-Package pdftex.def Info: fig/process.png used on input line 235.
-(pdftex.def)             Requested size: 307.28987pt x 167.77689pt.
+Package pdftex.def Info: fig/process.png used on input line 237.
+(pdftex.def)             Requested size: 290.74263pt x 158.74536pt.
 
 [9
 
  <./fig/process.png>]
 \openout4 = `01-intro.vrb'.
 
- (./01-intro.vrb) [10
+ (./01-intro.vrb
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 6.
+) [10
 
 ] [11
 
@@ -1726,7 +1787,7 @@ BDD8B.pygtex)
 \openout5 = `01-intro.listing'.
 
 
-(./_minted-01-intro/B39700B85955193F98176E7AB6619EB037ACFFC7DCEE54C83F402C347A8
+(./_minted-01-intro/35A64D5844C4C3036DE49EEB314685D937ACFFC7DCEE54C83F402C347A8
 BDD8B.pygtex)) [17
 
 ]
@@ -1745,18 +1806,10 @@ BDD8B.pygtex)) [18
  (./01-intro.vrb
 \openout5 = `01-intro.listing'.
 
-runsystem(pygmentize -l latex -f latex -P commandprefix=PYG -F tokenmerge -P te
-xcomments=True -o "_minted-01-intro/B75D6C1D24987CE02C9AEF2A1C45B60837ACFFC7DCE
-E54C83F402C347A8BDD8B.pygtex" "01-intro.listing" )...executed.
-
 
 (./_minted-01-intro/B75D6C1D24987CE02C9AEF2A1C45B60837ACFFC7DCEE54C83F402C347A8
 BDD8B.pygtex)
 \openout5 = `01-intro.listing'.
-
-runsystem(pygmentize -l latex -f latex -P commandprefix=PYG -F tokenmerge -P te
-xcomments=True -o "_minted-01-intro/A3B5AAD5A7D5E65BE3C7D4838B8469DE37ACFFC7DCE
-E54C83F402C347A8BDD8B.pygtex" "01-intro.listing" )...executed.
 
 
 (./_minted-01-intro/A3B5AAD5A7D5E65BE3C7D4838B8469DE37ACFFC7DCEE54C83F402C347A8
@@ -1797,12 +1850,6 @@ BDD8B.pygtex)) [20
 \tf@snm=\write13
 \openout13 = `01-intro.snm'.
 
-runsystem(rm "_minted-01-intro/1D26730E563755CAEC59762FE487EF9337ACFFC7DCEE54C8
-3F402C347A8BDD8B.pygtex")...executed.
-
-runsystem(rm "_minted-01-intro/FD6984AADB10E29D09C29EC11DC65BA937ACFFC7DCEE54C8
-3F402C347A8BDD8B.pygtex")...executed.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 465.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 465.
  (./01-intro.aux)
@@ -1810,27 +1857,37 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 465.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 465.
 Package rerunfilecheck Info: File `01-intro.out' has not changed.
 (rerunfilecheck)             Checksum: 826098CB15427C7069A79E9A229E71B8;638.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 3.0pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 465.
  ) 
 Here is how much of TeX's memory you used:
- 27906 strings out of 493014
- 565276 string characters out of 6133352
- 748491 words of memory out of 5000000
- 30621 multiletter control sequences out of 15000+600000
- 75738 words of font info for 132 fonts, out of 8000000 for 9000
+ 27943 strings out of 493014
+ 565966 string characters out of 6133352
+ 724564 words of memory out of 5000000
+ 30663 multiletter control sequences out of 15000+600000
+ 93422 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,20n,83p,955b,769s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,18n,83p,955b,767s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2016/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
-rw/times/utmr8a.pfb>
-Output written on 01-intro.pdf (25 pages, 181707 bytes).
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb>
+Output written on 01-intro.pdf (25 pages, 181678 bytes).
 PDF statistics:
- 1014 PDF objects out of 1200 (max. 8388607)
- 927 compressed objects within 10 object streams
+ 550 PDF objects out of 1000 (max. 8388607)
+ 501 compressed objects within 6 object streams
  62 named destinations out of 1000 (max. 500000)
- 38072 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 41608 words of extra memory for PDF output out of 42996 (max. 10000000)
 
