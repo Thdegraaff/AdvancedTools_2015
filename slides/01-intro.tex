@@ -10,7 +10,21 @@
 \usepackage{microtype}
 \usepackage{longtable, booktabs}
 \usepackage[english]{babel}
-\usepackage{pgf, microtype, booktabs, times, etex, minted}
+\usepackage{pgf, microtype, booktabs, times, etex}
+\usepackage{tcolorbox}
+\tcbuselibrary{minted,skins}
+
+\newtcblisting{latexcode}{
+	listing engine=minted,
+	colback=bashcodebg,
+	colframe=black!70,
+	listing only,
+	minted style=colorful,
+	minted language=latex,
+	minted options={linenos=true,texcl=true},
+	left=1mm,
+}
+\definecolor{bashcodebg}{rgb}{0.85,0.85,0.85}
 %\usemintedstyle{emacs}
 \beamertemplatenavigationsymbolsempty
 
@@ -52,10 +66,9 @@
   Give a general introduction of why some tools work together
 
   \begin{itemize}
-  \item
-   \LaTeX{}
-  \item
-    Reference managers
+  \item \LaTeX{}
+  \item reference managers
+  \item (statistical) output
   \end{itemize}
 \item
   Give an introduction to \LaTeX{}
@@ -168,15 +181,26 @@
 \item
   Superior typography \& output
 \item
-  Large publishers (i.e., Elsevier and Springer) have \LaTeX~templates
-  for their articles
+  Many free \href{https://www.overleaf.com/latex/templates/}{\LaTeX~templates}
 \end{itemize}
 
 \end{frame}
 
+\begin{frame}{\LaTeX{} versus Markdown}
+	\begin{itemize}
+		\item Markdown (all variants): lightweight markup language that can export to \texttt{.doc}, \texttt{.html}, and \texttt{.pdf}.
+		\newline
+		\item Much easier then \LaTeX{} but less flexible
+		\newline
+		\item Used by writers/blogs even for complete websites
+		\newline
+		\item But good interaction with \LaTeX{}; if not only for formula's
+	\end{itemize}
+\end{frame}
+
 \subsection{Technicalities}\label{technicalities}
 
-\begin{frame}[fragile]{How does it work in practice?}
+\begin{frame}[fragile]{How does \LaTeX{} work in practice?}
 
 \begin{itemize}
 \item
@@ -245,7 +269,7 @@
 \subsection{Folder structure and file
 names}\label{folder-structure-and-file-names}
 
-\begin{frame}{Folder structure of your new project (theses, paper \& research)}
+\begin{frame}{Folder structure of your new project (theses, paper, assignment \& research)}
 
 \begin{itemize}
 \item
@@ -279,27 +303,48 @@ names}\label{folder-structure-and-file-names}
 \end{frame}
 
 
-\section{First steps}
+\section{TeXstudio}
 
+\subsection{How to work with TeXstudio}
+
+\begin{frame}{A quick tour}
+	content...
+\end{frame}
+
+\section{Exercises}
+
+\subsection{Baby-steps}
+
+\begin{frame}{First: organize!}
+	\begin{enumerate}
+		\item Create a specific workshop folder somewhere where you can find it.
+		\newline
+		\item Think about versioning system and a back-up system
+		\newline
+		\item E.g.: use dropbox and/or Time Machine 
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}[fragile]{Document structure: Open from template}
 \small
-\begin{frame}[fragile]{Document structure}
-\begin{minted}{latex}
-\documentclass{article}
- % a % indicates line is a comment
- % This area is called preamble
-\title{This is brilliant}
-\author{Thomas de Graaff}
+\begin{latexcode}
+\documentclass[]{article}
+%opening
+\title{}
+\author{}
 
 \begin{document}
-
-\maketitle
-
-\section{Introduction}
-
-lorem ipsum ...
+	
+	\maketitle
+	
+	\begin{abstract}
+		
+	\end{abstract}
+	
+	\section{}
 	
 \end{document}
-\end{minted}
+\end{latexcode}
 \end{frame}
 
 
