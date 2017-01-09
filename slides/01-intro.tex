@@ -46,7 +46,7 @@
   In the \emph{social sciences} few attention to what tools to use (and why)
   \newline
 \item
-  \LaTeX{} is used very much in the scientific world and \emph{works} brilliantly together with
+  \LaTeX{} is very much used in the scientific world and \emph{works} brilliantly together with
   \begin{itemize}
   \item statistical packages, such as \texttt{Stata} and \texttt{R},
   \item markdown/HTML,
@@ -117,7 +117,7 @@
     \item
       Specific editors: TexStudio, TexShop, RStudio
     \item
-      General editors: Sublime, TextMate, Notepad++, Vim, Emacs
+      General editors: Sublime, TextMate, Atom, Vim, Emacs
     \end{itemize}
   \end{itemize}
 \end{itemize}
@@ -143,7 +143,7 @@
     and Google
   \end{itemize}
 \item
-  Difficult to cooperate with people that went to the \emph{dark side}
+  Difficult to cooperate with people from the \emph{dark side}
 \item
   \emph{Basic} \LaTeX{} has \emph{difficulties} with incorporating new
   fonts (Hoefler, minion pro)
@@ -155,6 +155,7 @@
     \href{http://oestrem.com/thingstwice/2007/05/latex-vs-word-vs-writer/}{(\LaTeX{}
     vs Word)}
   \end{itemize}
+  \item Difficult to create unstructured and ugly documents
 \end{itemize}
 
 \end{frame}
@@ -395,7 +396,10 @@ Part before \texttt{\textbackslash begin document} is called preamble
 
 % This is where packages are loaded 
 % and specific commands are given that 
-% determine how the lay-out!
+% determine how the lay-out and desing
+% of your document will look like 
+% including: references, tables, 
+% paragraphs, headers, etc.
 	
 \begin{document}
 \end{latexcode}	
@@ -445,6 +449,23 @@ More complex text structures are relatively easy, just insert (after \texttt{\te
 \end{itemize}
 \end{frame}
 
+\begin{frame}[fragile]{Exercise 4: Lists}
+	Create the following mode choice list in your \texttt{.tex} document\\
+	\\
+	\begin{enumerate}
+		\item Cycling
+		\item Walking
+		\item Driving
+		\item Public transport
+		\begin{itemize}
+			\item Bus
+			\item Tram
+			\item Metro
+			\item Train
+		\end{itemize} 
+	\end{enumerate}
+\end{frame}
+
 \begin{frame}[fragile]{Further text control}
 \begin{itemize}
 \item Bold
@@ -461,28 +482,27 @@ More complex text structures are relatively easy, just insert (after \texttt{\te
 \subsection{Formula's} 
 
 \begin{frame}[fragile]{Formula's}
-	Inline math \texttt{\$ \$}; displayed math \texttt{\$\$ \$\$}; for example:
+Inline math \texttt{\$ \$}; displayed math \texttt{\$\$ \$\$}; for example:
 \begin{latexcode}
-x^2
-x_2
-\sqrt{x}
-Y = K^\alpha L^{1-\alpha}
-\sum_{i=1}^I
-\frac{\partial y}{\partial x}
+$x^2$
+$x_2$
+$\sqrt{x}$
+$$Y = K^\alpha L^{1-\alpha}$$
+$$\sum_{i=1}^I$$
+$$\frac{\partial x}{\partial y}$$
 \begin{equation}
-	e = mc^2
+	E = mc^2
 \end{equation}
 \end{latexcode}
-
 \end{frame}
 
-\begin{frame}{Exercise 4: Create these formula's}
+\begin{frame}{Exercise 5: Create these formula's}
 	\begin{enumerate} 
 		\item Regression formula:
 		\[ y_i = \alpha + \beta x_i + \epsilon_i \]
 		\item The mean
 		$$\bar{x} = \frac{1}{N}\sum_{i=1}^N x_i$$
-		\item Economic order quantity:
+		\item Optimal economic order quantity:
 		$$Q^\ast = \sqrt{ \frac{2DK}{h}} $$
 	\end{enumerate}
 \end{frame}
@@ -506,15 +526,15 @@ Figures can be \texttt{.pdf}, \texttt{.jpg}, \texttt{.png} and a whole lot of ot
 
 \begin{frame}[fragile]{Tables}
 \begin{latexcode}
-\begin{table}[!th]
+\begin{table}[t!]
+	\caption{This is the caption}
 	\begin{tabular}{|l|c|r|}
 		\hline
 		first & row & data \\
 		second & row & data \\
 		\hline
 	\end{tabular}
-	\caption{This is the caption}
-	\label{ex:table}
+	\label{tab:example}
 \end{table}
 \end{latexcode}
 \end{frame}
@@ -531,11 +551,12 @@ Internal references are a breeze
 \end{latexcode}
 \end{frame}
 
-\begin{frame}[fragile]{Exercise 5: Refer to tables}
+\begin{frame}[fragile]{Exercise 6: Create a table}
 Create the following table 
 
 \begin{table}[!th]
 	\center
+	\caption{Average grades}
 	\begin{tabular}{lrr}
 		\hline
 		First name  & Surname & Grade \\
@@ -543,12 +564,16 @@ Create the following table
 		Sherlock & Holmes & 7.9 \\
 		John H. & Watson & 8.1 \\
 		\hline
+		\\
+		\\
 	\end{tabular}
-	\caption{Average grades}
 	\label{tab:grades}
 \end{table}
 
-And refer to it in text as such: Table \ref{tab:grades} gives the average grades for course \textit{solving crimes}.
+And refer to it in text as such: 
+\begin{quote}
+	Table \ref{tab:grades} gives the average grades for course \textit{solving crimes}.
+\end{quote}
 \end{frame}
 
 \begin{frame}[fragile]{BibTeX}
@@ -561,6 +586,18 @@ Literature references (at the end)
 \bibliographystyle{apalike}
 \end{latexcode}
 Later, we dive into how to make this look good
+\end{frame}
+
+\begin{frame}{Exercise 7: References}
+	\begin{enumerate}
+		\item Search on Google Scholar for three references from Erik Verhoef and/or Wout Dullaert
+		\newline
+		\item Put those in a \texttt{.bib} file in the \textbf{same} directory as your \texttt{.tex} file
+		\newline
+		\item Refer to those in your \texttt{.tex} file
+		\newline
+		\item Create the reference list
+	\end{enumerate}
 \end{frame}
 
 \section{Conclusion}

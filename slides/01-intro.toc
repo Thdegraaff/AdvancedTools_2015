@@ -12,9 +12,9 @@
 \beamer@sectionintoc {4}{Exercises}{13}{0}{4}
 \beamer@subsectionintoc {4}{1}{Baby-steps}{13}{0}{4}
 \beamer@subsectionintoc {4}{2}{Paper structure}{16}{0}{4}
-\beamer@subsectionintoc {4}{3}{Formula's}{22}{0}{4}
-\beamer@subsectionintoc {4}{4}{Figures}{24}{0}{4}
-\beamer@subsectionintoc {4}{5}{Tables}{25}{0}{4}
-\beamer@subsectionintoc {4}{6}{Referencing}{26}{0}{4}
-\beamer@sectionintoc {5}{Conclusion}{29}{0}{5}
-\beamer@subsectionintoc {5}{1}{Next time}{29}{0}{5}
+\beamer@subsectionintoc {4}{3}{Formula's}{23}{0}{4}
+\beamer@subsectionintoc {4}{4}{Figures}{25}{0}{4}
+\beamer@subsectionintoc {4}{5}{Tables}{26}{0}{4}
+\beamer@subsectionintoc {4}{6}{Referencing}{27}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{31}{0}{5}
+\beamer@subsectionintoc {5}{1}{Next time}{31}{0}{5}
