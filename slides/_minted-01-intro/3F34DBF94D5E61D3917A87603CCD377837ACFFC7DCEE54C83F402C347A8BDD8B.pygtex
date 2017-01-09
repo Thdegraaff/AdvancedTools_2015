@@ -1,9 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
-\PYG{k}{\PYGZbs{}documentclass}\PYG{n+na}{[]}\PYG{n+nb}{\PYGZob{}}article\PYG{n+nb}{\PYGZcb{}}
-
-\PYG{c}{\PYGZpc{} This is where packages are loaded}
-\PYG{c}{% and specific commands are given that}
-\PYG{c}{% determine how the lay-out!}
-
-\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}document\PYG{n+nb}{\PYGZcb{}}
-\end{Verbatim}

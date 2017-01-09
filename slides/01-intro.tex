@@ -209,6 +209,7 @@
   \begin{itemize}
   \item
     distraction free writing (yeah right)
+    \newline
   \end{itemize}
 \item
   You then compile it
@@ -218,7 +219,7 @@
     \LaTeX{} is unforgiving: if there is an error, usually it does not
     compile
   \item
-    Typically, errors are missing brackets or parentheses.
+    Typically, errors are missing brackets or parentheses.\newline
   \end{itemize}
 \item
   Typically, source \texttt{.tex} file is compiled into \texttt{.pdf}
@@ -307,7 +308,7 @@ names}\label{folder-structure-and-file-names}
 
 \subsection{How to work with TeXstudio}
 
-\begin{frame}{A quick tour}
+\begin{frame}{TeXstudio: A quick tour}
 	\begin{itemize}
 		\item Preferences
 		\newline
@@ -353,6 +354,20 @@ names}\label{folder-structure-and-file-names}
 \end{latexcode}
 \end{frame}
 
+\begin{frame}{OK; and now what?}
+	\begin{enumerate}
+		\item Save your file in your folder (give is an appropriate name)
+		\newline
+		\item Press \texttt{F1} (or \texttt{F5})
+		\newline
+		\item The editor now sends \LaTeX{} the message that it should \textit{compile} your file
+		\newline
+		\item \LaTeX{} creates many new files
+	\end{enumerate}
+\end{frame}
+
+\subsection{Paper structure}
+
 \begin{frame}[fragile]{Exercise 2: Create a paper structure}
 	\small
 	\begin{latexcode}
@@ -391,12 +406,13 @@ An empty line starts a new paragraph and consecutive white spaces are treated as
 \begin{latexcode}
 One paragraph
 
-Second       paragraph (just one white space)
+Second     paragraph (just one white space)
 \end{latexcode}	
 
 The following characters are reserved \# \$ \% \^ \& \_ \{ \} \~{} \textbackslash{} and should be used as follows
 \begin{latexcode}
-\# \$ \% \^ \& \_ \{ \} \~{} \textbackslash{}
+\# \$ \% \^ \& \_ \{ \} \~{} 
+\textbackslash{}
 \end{latexcode}	
 So, with a backslash before except for the backslash (does this make sense?)
 \end{frame}
@@ -442,24 +458,127 @@ More complex text structures are relatively easy, just insert (after \texttt{\te
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Formula's}
-	content...
+\subsection{Formula's} 
+
+\begin{frame}[fragile]{Formula's}
+	Inline math \texttt{\$ \$}; displayed math \texttt{\$\$ \$\$}; for example:
+\begin{latexcode}
+x^2
+x_2
+\sqrt{x}
+Y = K^\alpha L^{1-\alpha}
+\sum_{i=1}^I
+\frac{\partial y}{\partial x}
+\begin{equation}
+	e = mc^2
+\end{equation}
+\end{latexcode}
+
 \end{frame}
 
-\begin{frame}{Tables}
-	content...
+\begin{frame}{Exercise 4: Create these formula's}
+	\begin{enumerate} 
+		\item Regression formula:
+		\[ y_i = \alpha + \beta x_i + \epsilon_i \]
+		\item The mean
+		$$\bar{x} = \frac{1}{N}\sum_{i=1}^N x_i$$
+		\item Economic order quantity:
+		$$Q^\ast = \sqrt{ \frac{2DK}{h}} $$
+	\end{enumerate}
 \end{frame}
 
-\begin{frame}{Figures}
-	content...
+\subsection{Figures}
+
+\begin{frame}[fragile]{Figures}
+	Figures/graphs and tables in a floating environment\\
+\begin{latexcode}
+\begin{figure}[h!]}
+\center
+	\includegraphics{ligatures_latex}
+	\caption{A figures about ligatures}
+	\label{fig:ligatures}
+\end{figure}
+\end{latexcode}
+Figures can be \texttt{.pdf}, \texttt{.jpg}, \texttt{.png} and a whole lot of other types (but not bitmaps!)
 \end{frame}
 
-\begin{frame}{Referencing}
-	content...
+\subsection{Tables}
+
+\begin{frame}[fragile]{Tables}
+\begin{latexcode}
+\begin{table}[!th]
+	\begin{tabular}{|l|c|r|}
+		\hline
+		first & row & data \\
+		second & row & data \\
+		\hline
+	\end{tabular}
+	\caption{This is the caption}
+	\label{ex:table}
+\end{table}
+\end{latexcode}
 \end{frame}
 
-\begin{frame}{BibTeX}
-	content...
+\subsection{Referencing}
+
+\begin{frame}[fragile]{Referencing}
+Internal references are a breeze
+\begin{latexcode}
+\label{}	% Label something
+\ref{}	% Refer to that
+\footnote{}	% Add footnote
+\thanks{}	% For in title
+\end{latexcode}
+\end{frame}
+
+\begin{frame}[fragile]{Exercise 5: Refer to tables}
+Create the following table 
+
+\begin{table}[!th]
+	\center
+	\begin{tabular}{lrr}
+		\hline
+		First name  & Surname & Grade \\
+		\hline
+		Sherlock & Holmes & 7.9 \\
+		John H. & Watson & 8.1 \\
+		\hline
+	\end{tabular}
+	\caption{Average grades}
+	\label{tab:grades}
+\end{table}
+
+And refer to it in text as such: Table \ref{tab:grades} gives the average grades for course \textit{solving crimes}.
+\end{frame}
+
+\begin{frame}[fragile]{BibTeX}
+Literature references (at the end)
+\begin{latexcode}
+\cite{} % cite something
+% Now tell LaTeX where to find references	
+\bibliography{references.bib}
+% and which citation style to use
+\bibliographystyle{apalike}
+\end{latexcode}
+Later, we dive into how to make this look good
+\end{frame}
+
+\section{Conclusion}
+
+\subsection{Next time}
+
+\begin{frame}{Next workshop}
+	\begin{itemize}
+		\item Use of packages
+		\newline
+		\item Making things look better!
+		\newline
+		\item Graphs
+		\newline
+		\item Better tables with \texttt{Stata} and \texttt{R} output
+		\newline
+		\item Slides
+	\end{itemize}
 \end{frame}
 
 \end{document}

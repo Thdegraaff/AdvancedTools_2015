@@ -1,1 +1,5 @@
-\textit{italics} or \emph{emphasized}
+\cite{} % cite something
+% Now tell LaTeX where to find references
+\bibliography{references.bib}
+% and which citation style to use
+\bibliographystyle{apalike}

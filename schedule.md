@@ -8,7 +8,7 @@ layout: default
 
 ### Thursday 12 Jan: 13:30-15:15 Introduction and basics:
 
-#### Location: TBA
+#### Location: 13A-24
 
 ##### First hour
 
@@ -21,17 +21,20 @@ layout: default
       + Are we not doing straightforward things in a very complex way?
 	
 	- Introduction to the use of reference managers
-2. Setting up *LaTeX* and *TeXstudio* (25 minutes	
+2. Setting up *LaTeX* and *TeXstudio* (5 minutes)
+3. Looking at TeXstudio (10 minutes)
+4. Running first program (10 minutes)
+	- babysteps
 
 ##### Second hour
 
-1. First steps with *Latex* (45 min)
-	- Working with *TexStudio*
-	- Hands on exercises 
-	  + headers
-	  + figures
-	  + tables 
-	  + equations
+1. First steps with *Latex* continued(45 min)
+	- Baby steps
+	- Paper structure
+	- Formula's
+	- Figures
+	- Tables
+	- Refering
 
 ### Thursday 26 Jan: 13:30-15:15 More advanced use of *LaTeX*
 
@@ -41,15 +44,16 @@ layout: default
 
 1.  Introduction (5 min) 
 2.	Use of packages (10 min)
-3.  Inserting figures (10 min)
-4.	*LaTeX* and other applications
-	- Better and automated tables (20 min)
+3.  Make things look better! (15 min)
+4.  Making graphs 
 
 ##### Second hour
 
-1.	Use of *BibTex*/*BibLatex* (10 min)
-2.	Making presentations in *Latex*: (20 min)
+1.	*LaTeX* and other applications
+	- Better and automated tables (20 min)
+2.	Better use of *BibTex*/*BibLatex* (10 min)
+3.	Making presentations in *Latex*: (20 min)
   - Reusing your only material to retain that lovely consistent look
   - Avoiding the [pitfalls](http://users.ha.uth.gr/tgd/pt0501/09/Tufte.pdf) of *PowerPoint* 
-3.  Larger and more structured output (15 min)
+4.  Larger and more structured output (15 min)
 	- hmmm, theses?

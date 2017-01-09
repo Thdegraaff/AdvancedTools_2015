@@ -1,11 +1,10 @@
-\frametitle{Further text control}
-\begin{itemize}
-\item Bold
+\frametitle{BibTeX}
+Literature references (at the end)
 \begin{latexcode}
-\textbf{bold}
+\cite{} % cite something
+% Now tell LaTeX where to find references
+\bibliography{references.bib}
+% and which citation style to use
+\bibliographystyle{apalike}
 \end{latexcode}
-\item Emphasize
-\begin{latexcode}
-\textit{italics} or \emph{emphasized}
-\end{latexcode}
-\end{itemize}
+Later, we dive into how to make this look good

@@ -48,28 +48,45 @@
 \headcommand {\beamer@framepages {14}{14}}
 \headcommand {\slideentry {4}{1}{3}{15/15}{Baby-steps}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\slideentry {4}{1}{4}{16/16}{Baby-steps}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{16}{Paper structure}}\headcommand {\beamer@subsectionpages {13}{15}}
+\headcommand {\slideentry {4}{2}{1}{16/16}{Paper structure}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {4}{1}{5}{17/17}{Baby-steps}{0}}
+\headcommand {\slideentry {4}{2}{2}{17/17}{Paper structure}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {4}{1}{6}{18/18}{Baby-steps}{0}}
+\headcommand {\slideentry {4}{2}{3}{18/18}{Paper structure}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {4}{1}{7}{19/19}{Baby-steps}{0}}
+\headcommand {\slideentry {4}{2}{4}{19/19}{Paper structure}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\slideentry {4}{1}{8}{20/20}{Baby-steps}{0}}
+\headcommand {\slideentry {4}{2}{5}{20/20}{Paper structure}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {4}{1}{9}{21/21}{Baby-steps}{0}}
+\headcommand {\slideentry {4}{2}{6}{21/21}{Paper structure}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {4}{1}{10}{22/22}{Baby-steps}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{22}{Formula's}}\headcommand {\beamer@subsectionpages {16}{21}}
+\headcommand {\slideentry {4}{3}{1}{22/22}{Formula's}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {4}{1}{11}{23/23}{Baby-steps}{0}}
+\headcommand {\slideentry {4}{3}{2}{23/23}{Formula's}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {4}{1}{12}{24/24}{Baby-steps}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{4}{24}{Figures}}\headcommand {\beamer@subsectionpages {22}{23}}
+\headcommand {\slideentry {4}{4}{1}{24/24}{Figures}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\slideentry {4}{1}{13}{25/25}{Baby-steps}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{5}{25}{Tables}}\headcommand {\beamer@subsectionpages {24}{24}}
+\headcommand {\slideentry {4}{5}{1}{25/25}{Tables}{0}}
 \headcommand {\beamer@framepages {25}{25}}
-\headcommand {\beamer@partpages {1}{25}}
-\headcommand {\beamer@subsectionpages {13}{25}}
-\headcommand {\beamer@sectionpages {13}{25}}
-\headcommand {\beamer@documentpages {25}}
-\headcommand {\def \inserttotalframenumber {25}}
+\headcommand {\beamer@subsectionentry {0}{4}{6}{26}{Referencing}}\headcommand {\beamer@subsectionpages {25}{25}}
+\headcommand {\slideentry {4}{6}{1}{26/26}{Referencing}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\slideentry {4}{6}{2}{27/27}{Referencing}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\slideentry {4}{6}{3}{28/28}{Referencing}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\sectionentry {5}{Conclusion}{29}{Conclusion}{0}}
+\headcommand {\beamer@sectionpages {13}{28}}
+\headcommand {\beamer@subsectionpages {26}{28}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{29}{Next time}}\headcommand {\beamer@subsectionpages {29}{28}}
+\headcommand {\slideentry {5}{1}{1}{29/29}{Next time}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\beamer@partpages {1}{29}}
+\headcommand {\beamer@subsectionpages {29}{29}}
+\headcommand {\beamer@sectionpages {29}{29}}
+\headcommand {\beamer@documentpages {29}}
+\headcommand {\def \inserttotalframenumber {29}}
