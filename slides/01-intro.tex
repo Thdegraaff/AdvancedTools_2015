@@ -37,7 +37,7 @@
 
 \section{Introduction}\label{introduction}
 
-\subsection{Why \& what}\label{introduction-1}
+\subsection{Introduction}\label{introduction-1}
 
 \begin{frame}{Why this workshop?}
 
@@ -70,10 +70,11 @@
   \begin{itemize}
   \item \LaTeX{}
   \item reference managers
-  \item (statistical/structered) output
+  \item (statistical) output
   \end{itemize}
 \item
   Give an introduction to \LaTeX{}
+
   \begin{itemize}
 	  \item First the basics + using references
 	  \item Next workshop: some advanced stuff
@@ -96,20 +97,18 @@
 \begin{frame}{Background}
 
 \begin{itemize}
-	\item \TeX{} has been devised by Donald E. Knuth in the 70's
-	\newline
-	\item \LaTeX{} is a set of macro's around TeX from the 80's
-	\newline
+	\item \TeX{} has been devised by Donald E. Knuth in the late 70's
+	\item \LaTeX{} is a set of macro's around TeX and devised in the 80's
 	\item \LaTeX{} is a \emph{typesetting program}, not a \emph{Word processor}
+
   \begin{itemize}
   \item
     It is actually some code that needs to be compiled
   \item
     Code is typed in by an editor
-    \newline
   \end{itemize}
 \item
- So, 
+  So, 
   \begin{itemize}
   \item Huge differences between Word and \LaTeX{}
   \item for \LaTeX{} you need an editor:
@@ -164,16 +163,26 @@
 \begin{frame}{Advantages}
 
 \begin{itemize}
-\item Free (as in beer) and ubiquitous
-\item WYSIWYM
-\item Superior typography \& output  
-\item Consistent lay-out throughout the whole document (including tables,
-	  appendices, formulas, source code)
-\item Internal references are a breeze (references, ToC, ToT)
-\item Forced to structure documents
-\item Macros, thus scriptable
-\item Large community, thus a package for almost everything that you typeset on paper (books, articles, presentation, posters, exams, musicscores)
-\item Many free \href{https://www.overleaf.com/latex/templates/}{\LaTeX~templates}
+\item
+  Free (as in beer) and ubiquitous
+\item
+  WYSIWYM
+\item
+  Consistent lay-out throughout the whole document (including tables,
+  appendices, formulas, source code, etc)
+\item
+  Internal references are a breeze (references, ToC, ToT \ldots{})
+\item
+  Forced to structure documents
+\item
+  Macros, thus scriptable
+\item
+  Large community, thus a package for almost everything (books,
+  articles, presentation, posters, exams, musicscores)
+\item
+  Superior typography \& output
+\item
+  Many free \href{https://www.overleaf.com/latex/templates/}{\LaTeX~templates}
 \end{itemize}
 
 \end{frame}
@@ -348,7 +357,7 @@ names}\label{folder-structure-and-file-names}
 
 \begin{frame}{OK; and now what?}
 	\begin{enumerate}
-		\item Save your file in your folder (give it an appropriate name)
+		\item Save your file in your folder (give is an appropriate name)
 		\newline
 		\item Press \texttt{F1} (or \texttt{F5})
 		\newline
@@ -381,8 +390,7 @@ And for bigger projects:
 \end{frame}
 
 \begin{frame}[fragile]{Intermezzo: preamble}
-Part before \texttt{\textbackslash begin\{document\}} is called preamble\\
-A set of \texttt{[]} indicates options for the given command
+Part before \texttt{\textbackslash begin document} is called preamble
 \begin{latexcode}
 \documentclass[]{article}
 
@@ -405,16 +413,16 @@ One paragraph
 Second     paragraph (just one white space)
 \end{latexcode}	
 
-The following characters are reserved \# \$ \% \^{} \& \_ \{ \} \~{} \textbackslash{} and should be used as follows
+The following characters are reserved \# \$ \% \^ \& \_ \{ \} \~{} \textbackslash{} and should be used as follows
 \begin{latexcode}
-\# \$ \% \^ \& \_ \{ \} \~ 
-\textbackslash
+\# \$ \% \^ \& \_ \{ \} \~{} 
+\textbackslash{}
 \end{latexcode}	
 So, with a backslash before except for the backslash (does this make sense?)
 \end{frame}
 
 \begin{frame}[fragile]{Exercise 3: Create a table of contents}
-More complex text structures are relatively easy, just insert (after \texttt{\textbackslash begin\{document\}})
+More complex text structures are relatively easy, just insert (after \texttt{\textbackslash begin document})
 \begin{latexcode}
 \tableofcontents
 \listoffigures
@@ -564,7 +572,7 @@ Create the following table
 
 And refer to it in text as such: 
 \begin{quote}
-	Table \ref{tab:grades} gives the average grades for the course \textbf{Solving Crimes}.
+	Table \ref{tab:grades} gives the average grades for course \textit{solving crimes}.
 \end{quote}
 \end{frame}
 
