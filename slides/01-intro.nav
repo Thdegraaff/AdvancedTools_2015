@@ -4,10 +4,10 @@
 \headcommand {\sectionentry {1}{Introduction}{2}{Introduction}{0}}
 \headcommand {\beamer@sectionpages {1}{1}}
 \headcommand {\beamer@subsectionpages {1}{1}}
-\headcommand {\beamer@subsectionentry {0}{1}{1}{2}{Why \& what}}\headcommand {\beamer@subsectionpages {2}{1}}
-\headcommand {\slideentry {1}{1}{1}{2/2}{Why \& what}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{2}{Introduction}}\headcommand {\beamer@subsectionpages {2}{1}}
+\headcommand {\slideentry {1}{1}{1}{2/2}{Introduction}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\slideentry {1}{1}{2}{3/3}{Why \& what}{0}}
+\headcommand {\slideentry {1}{1}{2}{3/3}{Introduction}{0}}
 \headcommand {\beamer@framepages {3}{3}}
 \headcommand {\sectionentry {2}{\LaTeX {}}{4}{\LaTeX {}}{0}}
 \headcommand {\beamer@sectionpages {2}{3}}

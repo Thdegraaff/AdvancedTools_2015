@@ -1,7 +1,7 @@
 \beamer@endinputifotherversion {3.36pt}
 \select@language {english}
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{Why \& what}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Introduction}{2}{0}{1}
 \beamer@sectionintoc {2}{\LaTeX {}}{4}{0}{2}
 \beamer@subsectionintoc {2}{1}{Introduction}{4}{0}{2}
 \beamer@subsectionintoc {2}{2}{Why \LaTeX {}?}{5}{0}{2}
