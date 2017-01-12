@@ -1,7 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
-\PYG{k}{\PYGZbs{}cite}\PYG{n+nb}{\PYGZob{}\PYGZcb{}} \PYG{c}{\PYGZpc{} cite something}
-\PYG{c}{% Now tell LaTeX where to find references}
-\PYG{k}{\PYGZbs{}bibliography}\PYG{n+nb}{\PYGZob{}}references.bib\PYG{n+nb}{\PYGZcb{}}
-\PYG{c}{\PYGZpc{} and which citation style to use}
-\PYG{k}{\PYGZbs{}bibliographystyle}\PYG{n+nb}{\PYGZob{}}apalike\PYG{n+nb}{\PYGZcb{}}
-\end{Verbatim}

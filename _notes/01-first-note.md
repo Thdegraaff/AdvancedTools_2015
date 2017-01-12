@@ -11,4 +11,4 @@ title: Workshop 1
 
 * [An Introduction to LaTeX](http://latex-project.org/intro.html) : A gentle introduction from the LaTeX project homepage.
 * [The Not So Short Intruduction to LaTeX](https://tobi.oetiker.ch/lshort/lshort.pdf) : A bit technical but rather complete reference to Latex
-
+* [LaTeX tutorial at ShareLatex](https://nl.sharelatex.com/learn/Main_Page) : A wonderful LaTeX tutorial at ShareLatex
