@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.1)  17 JAN 2017 17:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.1)  17 JAN 2017 17:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**AdvancedTopics.tex
-(./AdvancedTopics.tex
+**02-AdvancedTopics.tex
+(./02-AdvancedTopics.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1250,11 +1250,11 @@ Package: ifplatform 2010/10/22 v0.4 Testing for the operating system
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/catchfile.sty
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
-runsystem(uname -s > "AdvancedTopics.w18")...executed.
+runsystem(uname -s > "02-AdvancedTopics.w18")...executed.
 
 
-(./AdvancedTopics.w18)
-runsystem(rm -- "AdvancedTopics.w18")...executed.
+(./02-AdvancedTopics.w18)
+runsystem(rm -- "02-AdvancedTopics.w18")...executed.
 
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
@@ -1303,10 +1303,10 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 \@float@every@listing=\toks52
 \c@listing=\count187
 )
-runsystem(mkdir -p "_minted-AdvancedTopics")...executed.
+runsystem(mkdir -p "_minted-02-AdvancedTopics")...executed.
 
 
-(./_minted-AdvancedTopics/default.pygstyle)
+(./_minted-02-AdvancedTopics/default.pygstyle)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.te
 x
 Library (tcolorbox): 'tcblistingscore.code.tex' version '3.91'
@@ -1371,12 +1371,12 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '3.91'
 ))
-runsystem(which "pygmentize" && touch "AdvancedTopics.aex")...executed.
+runsystem(which "pygmentize" && touch "02-AdvancedTopics.aex")...executed.
 
-runsystem(rm "AdvancedTopics.aex")...executed.
+runsystem(rm "02-AdvancedTopics.aex")...executed.
 
- (./AdvancedTopics.aux)
-\openout1 = `AdvancedTopics.aux'.
+ (./02-AdvancedTopics.aux)
+\openout1 = `02-AdvancedTopics.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
@@ -1475,9 +1475,9 @@ LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
 LaTeX Info: Redefining \nameref on input line 34.
 
-(./AdvancedTopics.out) (./AdvancedTopics.out)
+(./02-AdvancedTopics.out) (./02-AdvancedTopics.out)
 \@outlinefile=\write10
-\openout10 = `AdvancedTopics.out'.
+\openout10 = `02-AdvancedTopics.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 34.
@@ -1562,7 +1562,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(./_minted-AdvancedTopics/default-pyg-prefix.pygstyle) (./AdvancedTopics.nav)
+(./_minted-02-AdvancedTopics/default-pyg-prefix.pygstyle)
+(./02-AdvancedTopics.nav)
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <6> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
@@ -1645,15 +1646,15 @@ LaTeX Font Info:    Font shape `OMS/phv/bx/n' in size <9> not available
 ] [8
 
 ]
-\openout4 = `AdvancedTopics.vrb'.
+\openout4 = `02-AdvancedTopics.vrb'.
 
- (./AdvancedTopics.vrb
-\openout5 = `AdvancedTopics.listing'.
+ (./02-AdvancedTopics.vrb
+\openout5 = `02-AdvancedTopics.listing'.
 
 
-(./_minted-AdvancedTopics/colorful.pygstyle)
-(./_minted-AdvancedTopics/E074635B0955BBBFD4D2C7F0338DDA917B5CAA7489E53818229A5
-9DA499E4F39.pygtex
+(./_minted-02-AdvancedTopics/colorful.pygstyle)
+(./_minted-02-AdvancedTopics/E074635B0955BBBFD4D2C7F0338DDA91E90C74713DA682636C
+4A5F6E4047D011.pygtex
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1671,41 +1672,34 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10.95> not available
 )) [9
 
 ]
-\openout4 = `AdvancedTopics.vrb'.
+\openout4 = `02-AdvancedTopics.vrb'.
 
 
-(./AdvancedTopics.vrb
-\openout5 = `AdvancedTopics.listing'.
-
-runsystem(pygmentize -l latex -f latex -P commandprefix=PYG -F tokenmerge -P te
-xcomments=True -o "_minted-AdvancedTopics/341BAAE2975C1303ADB23A64C34384A17B5CA
-A7489E53818229A59DA499E4F39.pygtex" "AdvancedTopics.listing" )...executed.
+(./02-AdvancedTopics.vrb
+\openout5 = `02-AdvancedTopics.listing'.
 
 
-(./_minted-AdvancedTopics/341BAAE2975C1303ADB23A64C34384A17B5CAA7489E53818229A5
-9DA499E4F39.pygtex)) [10
+(./_minted-02-AdvancedTopics/341BAAE2975C1303ADB23A64C34384A1E90C74713DA682636C
+4A5F6E4047D011.pygtex)) [10
 
 ] [11
 
 ]
 \tf@nav=\write11
-\openout11 = `AdvancedTopics.nav'.
+\openout11 = `02-AdvancedTopics.nav'.
 
 \tf@toc=\write12
-\openout12 = `AdvancedTopics.toc'.
+\openout12 = `02-AdvancedTopics.toc'.
 
 \tf@snm=\write13
-\openout13 = `AdvancedTopics.snm'.
-
-runsystem(rm "_minted-AdvancedTopics/81332564C956B0AC86C4D5002AF0536F7B5CAA7489
-E53818229A59DA499E4F39.pygtex")...executed.
+\openout13 = `02-AdvancedTopics.snm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
- (./AdvancedTopics.aux)
+ (./02-AdvancedTopics.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
-Package rerunfilecheck Info: File `AdvancedTopics.out' has not changed.
+Package rerunfilecheck Info: File `02-AdvancedTopics.out' has not changed.
 (rerunfilecheck)             Checksum: E40970BDEF04CEF81FF7E1CFF65E9A6C;592.
 
 
@@ -1714,13 +1708,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 149.
  ) 
 Here is how much of TeX's memory you used:
- 27641 strings out of 493014
- 558243 string characters out of 6133352
- 722019 words of memory out of 5000000
+ 27640 strings out of 493014
+ 558275 string characters out of 6133352
+ 722091 words of memory out of 5000000
  30470 multiletter control sequences out of 15000+600000
  67692 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,83p,961b,728s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,16n,83p,964b,728s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texl
@@ -1729,7 +1723,7 @@ ive/2016/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2016
 ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb>
-Output written on AdvancedTopics.pdf (11 pages, 77596 bytes).
+Output written on 02-AdvancedTopics.pdf (11 pages, 77596 bytes).
 PDF statistics:
  305 PDF objects out of 1000 (max. 8388607)
  276 compressed objects within 3 object streams
