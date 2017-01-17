@@ -1,0 +1,6 @@
+\usetheme{Hannover}
+\usecolortheme{dove}
+
+% to remove those navigation symbols
+\beamertemplatenavigationsymbolsempty
+	

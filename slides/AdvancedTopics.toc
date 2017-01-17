@@ -1,0 +1,14 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Recap}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{Agenda}{3}{0}{1}
+\beamer@sectionintoc {2}{Packages}{4}{0}{2}
+\beamer@sectionintoc {3}{Figures}{5}{0}{3}
+\beamer@sectionintoc {4}{Tables}{6}{0}{4}
+\beamer@sectionintoc {5}{Automizing tables}{7}{0}{5}
+\beamer@sectionintoc {6}{References}{8}{0}{6}
+\beamer@sectionintoc {7}{Slides}{9}{0}{7}
+\beamer@subsectionintoc {7}{1}{Beamer class}{9}{0}{7}
+\beamer@sectionintoc {8}{Conclusion}{11}{0}{8}
+\beamer@subsectionintoc {8}{1}{In conclusion}{11}{0}{8}

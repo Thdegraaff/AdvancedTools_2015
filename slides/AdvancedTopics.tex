@@ -1,0 +1,149 @@
+\documentclass[ignorenonframetext]{beamer}
+\usetheme{Hannover}
+\usecolortheme{dove}
+\usefonttheme{structurebold}
+\usepackage{amssymb,amsmath}
+\definecolor{links}{HTML}{2A1B81}
+\hypersetup{colorlinks,linkcolor=,urlcolor=links}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{longtable, booktabs}
+\usepackage[english]{babel}
+\usepackage{pgf, microtype, booktabs, times, etex}
+\usepackage{tcolorbox}
+\tcbuselibrary{minted,skins}
+
+\newtcblisting{latexcode}{
+	listing engine=minted,
+	colback=bashcodebg,
+	colframe=black!70,
+	listing only,
+	minted style=colorful,
+	minted language=latex,
+	minted options={linenos=true,texcl=true},
+	left=1mm,
+}
+\definecolor{bashcodebg}{rgb}{0.85,0.85,0.85}
+\beamertemplatenavigationsymbolsempty
+
+\title{\LaTeX{} for Economics and Business Administration (Part II)}
+\author{Thomas de Graaff}
+\date{January 26, 2017}
+
+\begin{document}
+\frame{\titlepage}
+
+\section{Introduction}\label{introduction}
+
+\subsection{Recap}\label{introduction-1}
+
+\begin{frame}{Previously}
+	\begin{itemize}
+		\item Pros and cons of \LaTeX{}
+		\newline
+		\item Why bother with learning \LaTeX{}
+		\begin{itemize}
+			\item for consistent/structured lay-out
+			\item better automation of workflow
+			\newline
+		\end{itemize}
+		\item Compiling, referencing, formula's, text control
+	\end{itemize}
+\end{frame}
+
+\subsection{Agenda}
+
+\begin{frame}{This session we look at}
+\begin{itemize}
+	\item Packages (controlling the preamble)
+	\newline
+	\item Figures (how to insert them?)
+	\newline
+	\item Tables (inserting plaing tables)
+	\newline
+	\item Automatizing tables (complex tables)
+	\newline
+	\item Better looking references
+	\newline
+	\item Making slides
+	\newline
+\end{itemize}
+	Note: we will only touch upon these subjects
+\end{frame}
+
+\section{Packages}
+
+\begin{frame}
+	content
+\end{frame}
+
+\section{Figures}
+
+\begin{frame}
+	content
+\end{frame}
+
+\section{Tables}
+
+\begin{frame}
+	content
+\end{frame}
+
+\section{Automizing tables}
+
+\begin{frame}
+	content
+\end{frame}
+
+\section{References}
+
+\begin{frame}
+	content
+\end{frame}
+
+\section{Slides}
+
+\subsection{Beamer class}
+
+\begin{frame}[fragile]{Slides}
+	Slides are typically made with the beamer class
+	\begin{latexcode}
+\documentclass{beamer}
+\title{Another lecture}
+\author{By a wisecrack lecturer}
+
+\begin{document}
+  \frame{\titlepage}
+	
+  \begin{frame}{Introduction}
+%	Typically a quote from a long 
+%	dead philosopher that should
+%	make the lecturer look smart
+%	but usually does not.
+  \end{frame}		
+\end{document}
+\end{latexcode}	
+\end{frame}
+
+\begin{frame}[fragile]{Beamer style}
+	You can change the beamer style by:
+	\begin{latexcode}
+\usetheme{Hannover}
+\usecolortheme{dove}
+
+% to remove those navigation symbols
+\beamertemplatenavigationsymbolsempty
+	\end{latexcode}
+\href{https://www.hartwork.org/beamer-theme-matrix/}{(https://www.hartwork.org/beamer-theme-matrix/} gives all possible combinations
+\end{frame}
+
+\section{Conclusion}
+
+\subsection{In conclusion}
+
+\begin{frame}
+	content
+\end{frame}
+
+\end{document}

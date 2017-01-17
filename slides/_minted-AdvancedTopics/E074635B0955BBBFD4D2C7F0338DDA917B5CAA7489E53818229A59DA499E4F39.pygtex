@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k}{\PYGZbs{}documentclass}\PYG{n+nb}{\PYGZob{}}beamer\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}title}\PYG{n+nb}{\PYGZob{}}Another lecture\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}author}\PYG{n+nb}{\PYGZob{}}By a wisecrack lecturer\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}document\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}frame}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}titlepage}\PYG{n+nb}{\PYGZcb{}}
+
+  \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}frame\PYG{n+nb}{\PYGZcb{}\PYGZob{}}Introduction\PYG{n+nb}{\PYGZcb{}}
+\PYG{c}{\PYGZpc{}	Typically a quote from a long}
+\PYG{c}{%	dead philosopher that should}
+\PYG{c}{%	make the lecturer look smart}
+\PYG{c}{%	but usually does not.}
+  \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}frame\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}document\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

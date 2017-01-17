@@ -1,0 +1,10 @@
+\frametitle{Beamer style}
+You can change the beamer style by:
+	\begin{latexcode}
+\usetheme{Hannover}
+\usecolortheme{dove}
+
+% to remove those navigation symbols
+\beamertemplatenavigationsymbolsempty
+	\end{latexcode}
+\href{https://www.hartwork.org/beamer-theme-matrix/}{(https://www.hartwork.org/beamer-theme-matrix/} gives all possible combinations
