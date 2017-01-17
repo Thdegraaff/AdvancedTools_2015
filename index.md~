@@ -43,6 +43,6 @@ No
 
 #### When and where?
 
-Thursday, January 12 : 13:30 - 15:15 in TBA
+Thursday, January 12 : 13:30 - 15:15 in 13A-24
 
 Thursday, January 26 : 13:30 - 15:15 in TBA 
