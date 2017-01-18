@@ -72,10 +72,69 @@
 	Note: we will only touch upon these subjects
 \end{frame}
 
-\section{Packages}
+\section{Packages, packages, and packages}
+\begin{frame}[fragile]{The use of packages}
+	
+	\begin{itemize}
+		\item	Typically, packages are used to change appearance
+		\item	To ensure no errors, usually opt for the full installation or haveaccess to internet
+		\item There are lots of them, see \href{http://www.ctan.org}{CTAN}
+		\item	Often used packages
+			\begin{itemize}
+			\item amsmath, graphicx, subfig, marvosym, microtype, booktabs, lipsum,	pdflscape, fullpage, natbib
+		\end{itemize}
+		\item	format:
+\scriptsize
+\begin{latexcode}
+\usepackage[colorlinks=true,citecolor=magenta,
+            urlcolor=magenta]{hyperref}
+\end{latexcode}
+	\end{itemize}
+\end{frame}
 
-\begin{frame}
-	content
+\begin{frame}[fragile]{The use of classes}
+	\begin{itemize}
+		\item	Typically one uses the \texttt{article} class
+		\item	However, there is as well a \texttt{book}, \texttt{mininal},
+		\texttt{report}, \texttt{beamer} class etcetera
+		\item	Specific user written classes are \texttt{memoir} and	\texttt{elsarticle} classes
+		\item	Classes come with options such as
+\begin{latexcode}
+\documentclass[12pt, a4paper]{article}
+\end{latexcode}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{General structure}
+	\begin{latexcode}
+\documentclass[twocolumn, a4paper]{article}
+% Preamble: how should it look like
+\usepackage{multicol, lipsum}
+\usepackage[english, german]{babel}
+\begin{document}
+	% Body: the real contents
+	\lipsum
+\end{document}
+	\end{latexcode}
+\end{frame}
+
+\subsection{references}
+
+\begin{frame}[fragile]{natbib \& biblatex}
+	Default format is BibTeX---customizable (however limited)---defaults is good (except: use natbib!)
+	\newline
+	If you want to customize quite a lot: biblatex package!
+	
+\begin{latexcode}
+\usepackage[style= authoryear-icomp,  
+            backend=bibtex,
+            natbib=true,
+            firstinits=true,
+            backref=true,
+            maxnames=2,
+            maxbibnames=10]
+            	{biblatex}
+\end{latexcode}
 \end{frame}
 
 \section{Figures}
@@ -91,12 +150,6 @@
 \end{frame}
 
 \section{Automizing tables}
-
-\begin{frame}
-	content
-\end{frame}
-
-\section{References}
 
 \begin{frame}
 	content
@@ -139,8 +192,6 @@
 \end{frame}
 
 \section{Conclusion}
-
-\subsection{In conclusion}
 
 \begin{frame}
 	content

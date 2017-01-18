@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k}{\PYGZbs{}usepackage}[style= authoryear\PYGZhy{}icomp,
+            backend=bibtex,
+            natbib=true,
+            firstinits=true,
+            backref=true,
+            maxnames=2,
+            maxbibnames=10]
+            	\PYG{n+nb}{\PYGZob{}}biblatex\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}
