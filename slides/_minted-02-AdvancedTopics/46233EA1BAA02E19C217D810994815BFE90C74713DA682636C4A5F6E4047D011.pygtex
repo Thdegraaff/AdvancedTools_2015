@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}booktabs, dcolumn\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} in preamble}
+\PYG{k}{\PYGZbs{}newcolumntype}\PYG{n+nb}{\PYGZob{}}d\PYG{n+nb}{\PYGZcb{}\PYGZob{}}D\PYG{n+nb}{\PYGZob{}}.\PYG{n+nb}{\PYGZcb{}\PYGZob{}}.\PYG{n+nb}{\PYGZcb{}\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}\PYGZcb{}}  \PYG{c}{\PYGZpc{} in preamble}
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}[t!]
+	\PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}This is the caption\PYG{n+nb}{\PYGZcb{}}
+	\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}}ldd\PYG{n+nb}{\PYGZcb{}}
+		\PYG{k}{\PYGZbs{}toprule}
+		Student \PYG{n+nb}{\PYGZam{}} Grade 1 \PYG{n+nb}{\PYGZam{}} Grade 2 \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		\PYG{k}{\PYGZbs{}midrule}
+		Mike    \PYG{n+nb}{\PYGZam{}} 7.8 \PYG{n+nb}{\PYGZam{}} 9   \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		Andrea  \PYG{n+nb}{\PYGZam{}} 6   \PYG{n+nb}{\PYGZam{}} 8.2 \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		\PYG{k}{\PYGZbs{}bottomrule}
+	\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}}
+	\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}tab:example2\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

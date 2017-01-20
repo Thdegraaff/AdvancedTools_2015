@@ -7,7 +7,8 @@
 \beamer@subsectionintoc {2}{1}{references}{7}{0}{2}
 \beamer@sectionintoc {3}{Figures}{8}{0}{3}
 \beamer@sectionintoc {4}{Tables}{9}{0}{4}
-\beamer@sectionintoc {5}{Automizing tables}{10}{0}{5}
-\beamer@sectionintoc {6}{Slides}{11}{0}{6}
-\beamer@subsectionintoc {6}{1}{Beamer class}{11}{0}{6}
-\beamer@sectionintoc {7}{Conclusion}{13}{0}{7}
+\beamer@subsectionintoc {4}{1}{Referencing}{10}{0}{4}
+\beamer@subsectionintoc {4}{2}{Automizing tables}{12}{0}{4}
+\beamer@sectionintoc {5}{Slides}{14}{0}{5}
+\beamer@subsectionintoc {5}{1}{Beamer class}{14}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{16}{0}{6}

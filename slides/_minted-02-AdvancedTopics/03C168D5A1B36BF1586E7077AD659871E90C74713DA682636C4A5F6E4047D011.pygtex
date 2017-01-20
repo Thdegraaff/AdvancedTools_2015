@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}[t!]
+	\PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}This is the caption\PYG{n+nb}{\PYGZcb{}}
+	\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}}lcr\PYG{n+nb}{\PYGZcb{}}
+		\PYG{k}{\PYGZbs{}hline}
+		first \PYG{n+nb}{\PYGZam{}} row \PYG{n+nb}{\PYGZam{}} data \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		second \PYG{n+nb}{\PYGZam{}} row \PYG{n+nb}{\PYGZam{}} data \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		\PYG{k}{\PYGZbs{}hline}
+	\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}}
+	\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}tab:example\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

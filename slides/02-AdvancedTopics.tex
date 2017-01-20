@@ -10,7 +10,7 @@
 \usepackage{microtype}
 \usepackage{longtable, booktabs}
 \usepackage[english]{babel}
-\usepackage{pgf, microtype, booktabs, times, etex}
+\usepackage{pgf, microtype, booktabs, times, etex, dcolumn, minted}
 \usepackage{tcolorbox}
 \tcbuselibrary{minted,skins}
 
@@ -139,20 +139,100 @@
 
 \section{Figures}
 
-\begin{frame}
-	content
+\begin{frame}[fragile]{Figures}
+	Figures/graphs and tables in a floating environment\\
+	\begin{latexcode}
+\begin{figure}[h!]}
+	\center
+	\includegraphics{ligatures_latex}
+	\caption{A figures about ligatures}
+	\label{fig:ligatures}
+\end{figure}
+\end{latexcode}
+Figures can be \texttt{.pdf}, \texttt{.jpg}, \texttt{.png} and a whole lot of other types (but not bitmaps!)
 \end{frame}
 
 \section{Tables}
 
-\begin{frame}
-	content
+\begin{frame}[fragile]{Tables}
+\begin{latexcode}
+\begin{table}[t!]
+	\caption{This is the caption}
+	\begin{tabular}{lcr}
+		\hline
+		first & row & data \\
+		second & row & data \\
+		\hline
+	\end{tabular}
+	\label{tab:example}
+\end{table}
+\end{latexcode}
 \end{frame}
 
-\section{Automizing tables}
+\subsection{Referencing}
 
-\begin{frame}
-	content
+\begin{frame}[fragile]{Referencing}
+	Internal references are a breeze
+	\begin{latexcode}
+\label{}	% Label something
+\ref{}	% Refer to that
+\footnote{}	% Add footnote
+\thanks{}	% For in title
+	\end{latexcode}
+\end{frame}
+
+\begin{frame}[fragile]{dcolumn and booktabs package}
+\small
+\begin{latexcode}
+\usepackage{booktabs, dcolumn} % in preamble
+\newcolumntype{d}{D{.}{.}{2}}  % in preamble
+\begin{table}[t!]
+	\caption{This is the caption}
+	\begin{tabular}{ldd}
+		\toprule
+		Student & Grade 1 & Grade 2 \\
+		\midrule
+		Mike    & 7.8 & 9   \\
+		Andrea  & 6   & 8.2 \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:example2}
+\end{table}
+\end{latexcode}	
+\end{frame}
+
+\subsection{Automizing tables}
+
+\begin{frame}[fragile]{Some R code}
+\tiny
+		\begin{minted}{r}
+library(texreg)
+
+control <- c(4.17, 5.58, 5.18, 6.11, 4.50, 4.61, 5.17, 4.53, 5.33, 5.14)
+treated <- c(4.81, 4.17, 4.41, 3.59, 5.87, 3.83, 6.03, 4.89, 4.32, 4.69)
+group <- gl(2, 10, 20, labels = c("Control", "Treated"))
+weight <- c(control, treated)
+m1 <- lm(weight ~ group)
+m2 <- lm(weight ~ group - 1)
+
+texreg(list(m1, m2), dcolumn = TRUE, booktabs = TRUE, file = "Table.tex",
+use.packages = FALSE, label = "tab:3", caption = "Two linear models.",
+float.pos = "hb!")
+		\end{minted}
+\end{frame}
+
+which saves a file "Table.tex" to the same directory
+
+\begin{frame}[fragile]{Statistical output}
+Now 
+\begin{latexcode}
+\input{Table.tex}
+\end{latexcode}
+produces:
+
+\begin{scriptsize}
+	\input{Table.tex}
+\end{scriptsize}
 \end{frame}
 
 \section{Slides}
@@ -193,8 +273,22 @@
 
 \section{Conclusion}
 
-\begin{frame}
-	content
+\begin{frame}{In conclusion}
+	\begin{itemize}
+		\item \LaTeX{} is a very powerful structured language especially suitable for
+		\begin{itemize}
+			\item large complex documents;
+			\item documents with many formula's.
+			\newline
+		\end{itemize}
+	\item Big advantage: you really need to think
+	\newline
+	\item Not for every one; steep learning curve, but
+	\newline
+	\item large community (google it)
+	\newline
+	\item Markup language (especially, Markdown) becomes more and more wide-spread: \LaTeX{} is a good start
+	\end{itemize}
 \end{frame}
 
 \end{document}

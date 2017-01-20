@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}\PYGZcb{}}	\PYG{c}{\PYGZpc{} Label something}
+\PYG{k}{\PYGZbs{}ref}\PYG{n+nb}{\PYGZob{}\PYGZcb{}}	\PYG{c}{\PYGZpc{} Refer to that}
+\PYG{k}{\PYGZbs{}footnote}\PYG{n+nb}{\PYGZob{}\PYGZcb{}}	\PYG{c}{\PYGZpc{} Add footnote}
+\PYG{k}{\PYGZbs{}thanks}\PYG{n+nb}{\PYGZob{}\PYGZcb{}}	\PYG{c}{\PYGZpc{} For in title}
+	
+\end{Verbatim}
