@@ -7,4 +7,7 @@
             maxnames=2,
             maxbibnames=10]
             	\PYG{n+nb}{\PYGZob{}}biblatex\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}bibliography}\PYG{n+nb}{\PYGZob{}}mybib.bib\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}printbibliography}
 \end{Verbatim}

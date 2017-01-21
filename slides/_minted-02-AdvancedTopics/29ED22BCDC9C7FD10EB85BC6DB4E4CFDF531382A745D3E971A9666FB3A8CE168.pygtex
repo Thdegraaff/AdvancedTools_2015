@@ -5,8 +5,8 @@ control \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{k+kt}{c}\PYG{p}{(}\PYG{l+m}{4.17}\PYG{p
 treated \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{k+kt}{c}\PYG{p}{(}\PYG{l+m}{4.81}\PYG{p}{,} \PYG{l+m}{4.17}\PYG{p}{,} \PYG{l+m}{4.41}\PYG{p}{,} \PYG{l+m}{3.59}\PYG{p}{,} \PYG{l+m}{5.87}\PYG{p}{,} \PYG{l+m}{3.83}\PYG{p}{,} \PYG{l+m}{6.03}\PYG{p}{,} \PYG{l+m}{4.89}\PYG{p}{,} \PYG{l+m}{4.32}\PYG{p}{,} \PYG{l+m}{4.69}\PYG{p}{)}
 group \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{k+kp}{gl}\PYG{p}{(}\PYG{l+m}{2}\PYG{p}{,} \PYG{l+m}{10}\PYG{p}{,} \PYG{l+m}{20}\PYG{p}{,} labels \PYG{o}{=} \PYG{k+kt}{c}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Control\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}Treated\PYGZdq{}}\PYG{p}{))}
 weight \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{k+kt}{c}\PYG{p}{(}control\PYG{p}{,} treated\PYG{p}{)}
-m1 \PYG{o}{\PYGZlt{}\PYGZhy{}} lm\PYG{p}{(}weight \PYG{o}{\PYGZti{}} group\PYG{p}{)}
-m2 \PYG{o}{\PYGZlt{}\PYGZhy{}} lm\PYG{p}{(}weight \PYG{o}{\PYGZti{}} group \PYG{o}{\PYGZhy{}} \PYG{l+m}{1}\PYG{p}{)}
+m1 \PYG{o}{\PYGZlt{}\PYGZhy{}} lm\PYG{p}{(}weight \PYG{o}{\PYGZti{}} group \PYG{o}{\PYGZhy{}} \PYG{l+m}{1}\PYG{p}{)}
+m2 \PYG{o}{\PYGZlt{}\PYGZhy{}} lm\PYG{p}{(}weight \PYG{o}{\PYGZti{}} group\PYG{p}{)}
 
 texreg\PYG{p}{(}\PYG{k+kt}{list}\PYG{p}{(}m1\PYG{p}{,} m2\PYG{p}{),} dcolumn \PYG{o}{=} \PYG{k+kc}{TRUE}\PYG{p}{,} booktabs \PYG{o}{=} \PYG{k+kc}{TRUE}\PYG{p}{,} file \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Table.tex\PYGZdq{}}\PYG{p}{,}
 use.packages \PYG{o}{=} \PYG{k+kc}{FALSE}\PYG{p}{,} label \PYG{o}{=} \PYG{l+s}{\PYGZdq{}tab:3\PYGZdq{}}\PYG{p}{,} caption \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Two linear models.\PYGZdq{}}\PYG{p}{,}
