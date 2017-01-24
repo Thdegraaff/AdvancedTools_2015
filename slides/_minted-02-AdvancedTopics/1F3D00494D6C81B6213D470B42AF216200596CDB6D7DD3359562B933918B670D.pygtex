@@ -1,7 +1,7 @@
 \begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
 \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}[htbp!]\PYG{n+nb}{\PYGZcb{}}
 	\PYG{k}{\PYGZbs{}center}
-	\PYG{k}{\PYGZbs{}includegraphics}\PYG{n+nb}{\PYGZob{}}ligatures\PYG{n+nb}{\PYGZus{}}latex\PYG{n+nb}{\PYGZcb{}}
+	\PYG{k}{\PYGZbs{}includegraphics}\PYG{n+na}{[]}\PYG{n+nb}{\PYGZob{}}ligatures\PYG{n+nb}{\PYGZus{}}latex\PYG{n+nb}{\PYGZcb{}}
 	\PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}A figures about ligatures\PYG{n+nb}{\PYGZcb{}}
 	\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}fig:ligatures\PYG{n+nb}{\PYGZcb{}}
 \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}

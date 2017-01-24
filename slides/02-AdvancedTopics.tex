@@ -70,6 +70,8 @@
 	\newline
 \end{itemize}
 	Note: we will only touch upon these subjects
+	
+	Note2: All materials can be downloaded from \href{http://thomasdegraaff.nl/LaTeX-Workshop/notes/02-more-notes.html}{http://thomasdegraaff.nl/LaTeX-Workshop/notes/02-more-notes.html}
 \end{frame}
 
 \section{Packages, packages, and packages}
@@ -118,6 +120,20 @@
 	\end{latexcode}
 \end{frame}
 
+\begin{frame}[fragile]{Exercise: fluff it up!}
+	With a cool paper:
+	\begin{enumerate}
+		\item Use the \texttt{scrartcl} class with options: 11pt, abstracton, notitlepage
+		\item Now add option parkskip (and perhaps twocolumn)
+		\item One by one add the following packages and see what happens:
+		\begin{enumerate}
+			\item package fullpage
+			\item package fourier
+			\item package setspace with command thereafter \texttt{doublespace}
+		\end{enumerate}
+	\end{enumerate}
+\end{frame}
+
 \subsection{references}
 
 \begin{frame}[fragile]{natbib \& biblatex}
@@ -140,6 +156,18 @@
 \end{latexcode}
 \end{frame}
 
+\begin{frame}[fragile]{Exercise: cite or perish}
+	Create a reference list by:
+	\begin{enumerate}
+		\item citing some people, note:
+		\begin{latexcode}
+\cite{refid} % in text citation
+\citep[][]{refid} % between parentheses
+		\end{latexcode}
+	\item Indicate where the bibliography should be	
+	\end{enumerate}
+\end{frame}
+
 \section{Figures}
 
 \begin{frame}[fragile]{Figures}
@@ -147,12 +175,24 @@
 	\begin{latexcode}
 \begin{figure}[htbp!]}
 	\center
-	\includegraphics{ligatures_latex}
+	\includegraphics[]{ligatures_latex}
 	\caption{A figures about ligatures}
 	\label{fig:ligatures}
 \end{figure}
 \end{latexcode}
 Figures can be \texttt{.pdf}, \texttt{.jpg}, \texttt{.png} and a whole lot of other types (but not bitmaps!)
+\end{frame}
+
+\begin{frame}[fragile]{Exercise: insert cool picture}
+\begin{enumerate}
+	\item Insert the file \texttt{Powerphluff.jpg} and use the command
+\begin{latexcode}
+	width = 0.8\textwidth
+\end{latexcode}
+	to control the size
+	\item Give the figure an appropriate caption (something perhaps with source)
+\end{enumerate}
+
 \end{frame}
 
 \section{Tables}
@@ -204,6 +244,26 @@ Figures can be \texttt{.pdf}, \texttt{.jpg}, \texttt{.png} and a whole lot of ot
 \end{latexcode}	
 \end{frame}
 
+\begin{frame}[fragile]{Exercise: Create a lame table}
+	Create the following table 
+	
+	\begin{table}[!th]
+		\center
+		\caption{Average grades}
+		\begin{tabular}{lrr}
+			\hline
+			First name  & Surname & Grade \\
+			\hline
+			Sherlock & Holmes & 7.9 \\
+			John H. & Watson & 8.1 \\
+			\hline
+			\\
+			\\
+		\end{tabular}
+		\label{tab:grades}
+	\end{table}
+\end{frame}
+
 \subsection{Automizing tables}
 
 \begin{frame}[fragile]{Some R code}
@@ -222,20 +282,20 @@ texreg(list(m1, m2), dcolumn = TRUE, booktabs = TRUE, file = "Table.tex",
 use.packages = FALSE, label = "tab:3", caption = "Two linear models.",
 float.pos = "hb!")
 		\end{minted}
+		which saves a file "Table.tex" to the same directory
 \end{frame}
 
-which saves a file "Table.tex" to the same directory
 
-\begin{frame}[fragile]{Statistical output}
+
+\begin{frame}[fragile]{Exercise: Be as lazy as possible!}
 Now 
 \begin{latexcode}
 \input{Table.tex}
 \end{latexcode}
-produces:
-
-\begin{scriptsize}
-	\input{Table.tex}
-\end{scriptsize}
+produces your table
+\begin{itemize}
+	\item  Do it!
+\end{itemize}
 \end{frame}
 
 \section{Slides}
@@ -272,6 +332,16 @@ produces:
 \beamertemplatenavigationsymbolsempty
 	\end{latexcode}
 \href{https://www.hartwork.org/beamer-theme-matrix/}{(https://www.hartwork.org/beamer-theme-matrix/} gives all possible combinations
+\end{frame}
+
+\begin{frame}[fragile]{Exercise: Create slides or powerphluff!}
+	\begin{block}{Create a couple of slides containing at least}
+		\begin{itemize}
+			\item Titlepage
+			\item Introduction
+			\item Conclusion
+		\end{itemize}
+	\end{block}
 \end{frame}
 
 \section{Conclusion}

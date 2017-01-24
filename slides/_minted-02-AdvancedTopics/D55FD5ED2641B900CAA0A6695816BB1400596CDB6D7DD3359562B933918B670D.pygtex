@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k}{\PYGZbs{}cite}\PYG{n+nb}{\PYGZob{}}refid\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} in text citation}
+\PYG{k}{\PYGZbs{}citep}\PYG{n+na}{[][]}\PYG{n+nb}{\PYGZob{}}refid\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} between parentheses}
+		
+\end{Verbatim}

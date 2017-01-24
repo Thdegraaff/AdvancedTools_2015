@@ -1,28 +1,46 @@
-\documentclass[]{article}
+\documentclass{article}
+
+\usepackage{amssymb, amsmath, amsthm, graphics, graphicx, marvosym, microtype, booktabs, dcolumn, lipsum}
+\usepackage[pdftex,colorlinks=true,citecolor=magenta,urlcolor=magenta,pdfstartview=FitH]{hyperref}
+
+\usepackage[style= authoryear-icomp,  
+			backend=bibtex,
+			natbib=true,
+			firstinits=true,
+			backref=true,
+			maxnames=2,
+			maxbibnames=10]
+				{biblatex}
+\bibliography{MyCollection.bib}
 
 %opening
-\title{A cool new paper\footnote{blabla}}
-\author{Thomas de Graaff}
-\date{Monday, 18 January}
+\title{A Cool New Paper\footnote{Thanks for the cookies, but we will not \href{https://thatisevil.wordpress.com/2013/06/17/come-to-the-dark-side-we-have-cookies/}{come}.}}
+\author{L. Organa \& H. Solo}
+\date{\today}
 
 \begin{document}
 
 \maketitle
 
 \begin{abstract}
-
+	\lipsum[1]
 \end{abstract}
 
-\section{}
+\section{Introduction}
+	\lipsum[1-4]
+\section{Literature review}
+	\lipsum[1-3]
+\section{Methodology}
+	\lipsum[1-2]
+\section{Empirical implementation}
+	\lipsum[1-4]
+\subsection{Data}
+	\lipsum[1-2]
+\subsection{Results}
+	\lipsum[1-1]
+\subsection{Discussion}
+	\lipsum[1-3]
+\section{Conclusion}
+	\lipsum[1-4]
 
-\begin{equation}
-	y_i = X \beta
-	\label{brilliant}
-\end{equation}
-
-Some text, with respect to eqn. (\ref{brilliant})
-\cite{Ballester2010}
-\cite{Akcomak2012}
-\bibliographystyle{plain}
-\bibliography{MyCollection}
 \end{document}
