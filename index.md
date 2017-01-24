@@ -45,4 +45,4 @@ No
 
 Thursday, January 12 : 13:30 - 15:15 in 13A-24
 
-Thursday, January 26 : 13:30 - 15:15 in 11A-37 
+Thursday, January 26 : 11:00 - 12:45 in 14A-20 
