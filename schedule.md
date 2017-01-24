@@ -36,9 +36,9 @@ layout: default
 	- Tables
 	- Refering
 
-### Thursday 26 Jan: 13:30-15:15 More advanced use of *LaTeX*
+### Thursday 26 Jan: 11:00-12:45 More advanced use of *LaTeX*
 
-#### Location: 11A-37
+#### Location: 14A-20
 
 ##### First hour
 

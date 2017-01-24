@@ -38,7 +38,7 @@ layout: default
 
 ### Thursday 26 Jan: 13:30-15:15 More advanced use of *LaTeX*
 
-#### Location: TBA
+#### Location: 11A-37
 
 ##### First hour
 
