@@ -6,12 +6,11 @@ title: Workshop 2
 
 * [`.pdf` slides](../slides/02-AdvancedTopics.pdf) Set of slides for the second workshop
 * [`.tex` slides](../slides/02-AdvancedTopics.tex) Slides in tex
-  format as an example)
+  format as an example
   
 ### Material to be downloaded for second workshop
 
-*
-   [Material in `.zip`](../New_Cool_Project/Output/Paper/ACoolPaper.zip) :
+* [Material in `.zip`](../New_Cool_Project/Output/Paper/ACoolPaper.zip) :
    All material needed for the second workshop.
 
 ### How to create a shiny paper material (just extra stuff!)
