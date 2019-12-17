@@ -6,7 +6,7 @@ layout: default
 
 ## Schedule
 
-### Monday 13 Jan: 11:00-12:45:15 Introduction and basics:
+### Monday 13 Jan: 11:00-12:45 - Introduction and basics:
 
 #### Location: HG-0G25
 
@@ -37,7 +37,7 @@ layout: default
 	- Tables
 	- Referencing
 
-### Monday Jan: 11:00-12:45 More advanced use of *LaTeX*
+### Monday Jan: 11:00-12:45 - More advanced use of *LaTeX*
 
 #### Location: HG-0G13
 
