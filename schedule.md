@@ -6,21 +6,22 @@ layout: default
 
 ## Schedule
 
-### Thursday 12 Jan: 13:30-15:15 Introduction and basics:
+### Monday 13 Jan: 11:00-12:45:15 Introduction and basics:
 
-#### Location: 13A-24
+#### Location: HG-0G25
 
 ##### First hour
 
-1.	Introduction: why is there a need for these tools? (10 min)
-	- Introduction to *LaTeX* (20 min)
+1.	Introduction: 
+  - why is there a need for these tools? (5 min)
+	- Introduction to *LaTeX* (15 min)
       + What is it? 
 	  + Why is it different from Word?
       + Why do you need two programs (the program itself and an editor)?
       + Why is it cool?
       + Are we not doing straightforward things in a very complex way?
 	
-	- Introduction to the use of reference managers
+	- Introduction to the use of reference and citation managers
 2. Setting up *LaTeX* and *TeXstudio* (5 minutes)
 3. Looking at TeXstudio (10 minutes)
 4. Running first program (10 minutes)
@@ -34,11 +35,11 @@ layout: default
 	- Formula's
 	- Figures
 	- Tables
-	- Refering
+	- Referencing
 
-### Thursday 26 Jan: 11:00-12:45 More advanced use of *LaTeX*
+### Monday Jan: 11:00-12:45 More advanced use of *LaTeX*
 
-#### Location: 14A-20
+#### Location: HG-0G13
 
 ##### First hour
 
