@@ -1,14 +1,13 @@
-\beamer@endinputifotherversion {3.36pt}
 \select@language {english}
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{Recap}{2}{0}{1}
-\beamer@subsectionintoc {1}{2}{Agenda}{3}{0}{1}
-\beamer@sectionintoc {2}{Packages, packages, and packages}{4}{0}{2}
-\beamer@subsectionintoc {2}{1}{references}{8}{0}{2}
-\beamer@sectionintoc {3}{Figures}{10}{0}{3}
-\beamer@sectionintoc {4}{Tables}{12}{0}{4}
-\beamer@subsectionintoc {4}{1}{Referencing}{13}{0}{4}
-\beamer@subsectionintoc {4}{2}{Automizing tables}{16}{0}{4}
-\beamer@sectionintoc {5}{Slides}{18}{0}{5}
-\beamer@subsectionintoc {5}{1}{Beamer class}{18}{0}{5}
-\beamer@sectionintoc {6}{Conclusion}{21}{0}{6}
+\beamer@subsectionintoc {1}{1}{Recap}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Agenda}{4}{0}{1}
+\beamer@sectionintoc {2}{Packages, packages, and packages}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{references}{10}{0}{2}
+\beamer@sectionintoc {3}{Figures}{12}{0}{3}
+\beamer@sectionintoc {4}{Tables}{15}{0}{4}
+\beamer@subsectionintoc {4}{1}{Referencing}{17}{0}{4}
+\beamer@subsectionintoc {4}{2}{Automizing tables}{20}{0}{4}
+\beamer@sectionintoc {5}{Slides}{22}{0}{5}
+\beamer@subsectionintoc {5}{1}{Beamer class}{23}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{26}{0}{6}

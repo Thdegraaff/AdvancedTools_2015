@@ -1,8 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
-\PYG{k}{\PYGZbs{}usetheme}\PYG{n+nb}{\PYGZob{}}Hannover\PYG{n+nb}{\PYGZcb{}}
-\PYG{k}{\PYGZbs{}usecolortheme}\PYG{n+nb}{\PYGZob{}}dove\PYG{n+nb}{\PYGZcb{}}
-
-\PYG{c}{\PYGZpc{} to remove those navigation symbols}
-\PYG{k}{\PYGZbs{}beamertemplatenavigationsymbolsempty}
-	
-\end{Verbatim}
