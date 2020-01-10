@@ -22,7 +22,7 @@ layout: default
       + Are we not doing straightforward things in a very complex way?
 	
 	- Introduction to the use of reference and citation managers
-2. Setting up *LaTeX* and *TeXstudio* (5 minutes)
+2. Setting up *LaTeX* and *TeXstudio* (5 minutes---hopefully!)
 3. Looking at TeXstudio (10 minutes)
 4. Running first program (10 minutes)
 	- babysteps
@@ -37,7 +37,7 @@ layout: default
 	- Tables
 	- Referencing
 
-### Monday Jan: 11:00-12:45 - More advanced use of *LaTeX*
+### Monday Jan 27: 11:00-12:45 - More advanced use of *LaTeX*
 
 #### Location: HG-0G13
 

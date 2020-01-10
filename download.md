@@ -32,10 +32,10 @@ please contact [me](t.de.graaff@vu.nl).
 ## Additional stuff that might be handy
 
 We will discuss the usage of Bibtex in combination with reference
-managers. Two good reference managers are:
+managers. The reference manager I will use is:
 
-* Reference managers:
-    * [Mendeley](http://www.mendeley.com/) : Free, but not open source
-    * [Zotero](http://www.zotero.org/) :  Open source
+  * [Zotero](http://www.zotero.org/) :  Open source
 
-But to be honest, we will be mainly using Google Scholar in combination with *BibTex*. 
+But to be honest, we will be mainly using Google Scholar in combination with
+*BibTex*. In the second workshop we will also make use of the *biblatex* package
+which is more configurable
