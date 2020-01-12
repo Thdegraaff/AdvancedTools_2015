@@ -1,19 +1,15 @@
 \select@language {english}
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{\LaTeX {}}{5}{0}{2}
-\beamer@subsectionintoc {2}{1}{Introduction}{6}{0}{2}
-\beamer@subsectionintoc {2}{2}{Why \LaTeX {}?}{7}{0}{2}
-\beamer@subsectionintoc {2}{3}{Technicalities}{10}{0}{2}
-\beamer@subsectionintoc {2}{4}{Folder structure and file names}{13}{0}{2}
-\beamer@sectionintoc {3}{TeXstudio}{14}{0}{3}
-\beamer@subsectionintoc {3}{1}{How to work with TeXstudio}{15}{0}{3}
-\beamer@sectionintoc {4}{Exercises}{16}{0}{4}
-\beamer@subsectionintoc {4}{1}{Baby-steps}{17}{0}{4}
-\beamer@subsectionintoc {4}{2}{Paper structure}{20}{0}{4}
-\beamer@subsectionintoc {4}{3}{Formula's}{27}{0}{4}
-\beamer@subsectionintoc {4}{4}{Figures}{29}{0}{4}
-\beamer@subsectionintoc {4}{5}{Tables}{30}{0}{4}
-\beamer@subsectionintoc {4}{6}{Referencing}{31}{0}{4}
-\beamer@sectionintoc {5}{Conclusion}{35}{0}{5}
-\beamer@subsectionintoc {5}{1}{Next time}{36}{0}{5}
+\beamer@subsectionintoc {1}{1}{Why \LaTeX {}?}{10}{0}{1}
+\beamer@subsectionintoc {1}{2}{Technicalities}{27}{0}{1}
+\beamer@sectionintoc {2}{TeXstudio}{28}{0}{2}
+\beamer@subsectionintoc {2}{1}{How to work with TeXstudio}{29}{0}{2}
+\beamer@sectionintoc {3}{Exercises}{30}{0}{3}
+\beamer@subsectionintoc {3}{1}{Baby-steps}{31}{0}{3}
+\beamer@subsectionintoc {3}{2}{Paper structure}{34}{0}{3}
+\beamer@subsectionintoc {3}{3}{Formula's}{41}{0}{3}
+\beamer@subsectionintoc {3}{4}{Figures}{43}{0}{3}
+\beamer@subsectionintoc {3}{5}{Tables}{44}{0}{3}
+\beamer@subsectionintoc {3}{6}{Referencing}{45}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{49}{0}{4}
+\beamer@subsectionintoc {4}{1}{Next time}{50}{0}{4}

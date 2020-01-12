@@ -34,12 +34,8 @@
     "art10")
    (LaTeX-add-labels
     "introduction"
-    "introduction-1"
-    "section"
-    "introduction-2"
     "why"
     "technicalities"
-    "folder-structure-and-file-names"
     "fig:ligatures"
     "tab:example"
     "tab:grades")
