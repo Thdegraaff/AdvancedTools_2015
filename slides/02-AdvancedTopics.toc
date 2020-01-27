@@ -8,6 +8,6 @@
 \beamer@sectionintoc {4}{Tables}{15}{0}{4}
 \beamer@subsectionintoc {4}{1}{Referencing}{17}{0}{4}
 \beamer@subsectionintoc {4}{2}{Automizing tables}{20}{0}{4}
-\beamer@sectionintoc {5}{Slides}{22}{0}{5}
-\beamer@subsectionintoc {5}{1}{Beamer class}{23}{0}{5}
-\beamer@sectionintoc {6}{Conclusion}{26}{0}{6}
+\beamer@sectionintoc {5}{Slides}{23}{0}{5}
+\beamer@subsectionintoc {5}{1}{Beamer class}{24}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{27}{0}{6}
