@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.28)  27 JAN 2020 09:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.28)  27 JAN 2020 10:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1825,7 +1825,7 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <8> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 2.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 16.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 17.
 ) [6
 
 ]
@@ -1867,7 +1867,7 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10.95> not available
 
 (./_minted-02-AdvancedTopics/77D19034359E8EEBC63722C88963CCC600596CDB6D7DD33595
 62B933918B670D.pygtex))
-Overfull \vbox (31.96318pt too high) detected at line 148
+Overfull \vbox (31.96318pt too high) detected at line 149
  []
 
 [10
@@ -1877,10 +1877,6 @@ Overfull \vbox (31.96318pt too high) detected at line 148
 
  (./02-AdvancedTopics.vrb
 \openout8 = `02-AdvancedTopics.listing'.
-
-runsystem(pygmentize -l latex -f latex -P commandprefix=PYG -F tokenmerge -P te
-xcomments=True -o _minted-02-AdvancedTopics/86648683F70034B8086318FC9F0B5BA8005
-96CDB6D7DD3359562B933918B670D.pygtex 02-AdvancedTopics.listing)...executed.
 
 
 (./_minted-02-AdvancedTopics/86648683F70034B8086318FC9F0B5BA800596CDB6D7DD33595
@@ -2012,23 +2008,20 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 \tf@snm=\write13
 \openout13 = `02-AdvancedTopics.snm'.
 
-runsystem(rm _minted-02-AdvancedTopics/91F9397250E7B6CB982B76E11536F5CE00596CDB
-6D7DD3359562B933918B670D.pygtex)...executed.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 358.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 358.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
 
 (./02-AdvancedTopics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
 Package rerunfilecheck Info: File `02-AdvancedTopics.out' has not changed.
 (rerunfilecheck)             Checksum: 185DA128667762A7220554F843FDF539;645.
 runsystem(rm 02-AdvancedTopics.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 29336 strings out of 492995
- 598270 string characters out of 6132704
+ 29335 strings out of 492995
+ 598209 string characters out of 6132704
  758362 words of memory out of 5000000
  32031 multiletter control sequences out of 15000+600000
  72093 words of font info for 123 fonts, out of 8000000 for 9000
@@ -2040,7 +2033,7 @@ exlive/2017/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2
 f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb>
-Output written on 02-AdvancedTopics.pdf (27 pages, 85274 bytes).
+Output written on 02-AdvancedTopics.pdf (27 pages, 85329 bytes).
 PDF statistics:
  256 PDF objects out of 1000 (max. 8388607)
  213 compressed objects within 3 object streams
