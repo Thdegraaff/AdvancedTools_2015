@@ -55,17 +55,10 @@
 \begin{frame}{This session we look at}
 \begin{itemize}
 	\item Packages (controlling the preamble)
-	\newline
-	\item Figures (how to insert them?)
-	\newline
 	\item Tables (inserting plain tables)
-	\newline
 	\item Automatizing tables (complex tables)
-	\newline
 	\item Better looking references
-	\newline
 	\item Making slides
-	\newline
 \end{itemize}
 	Note: we will only touch upon these subjects
 	
@@ -97,8 +90,8 @@
 		\item	Typically one uses the \texttt{article} class
 		\item	However, there is as well a \texttt{book}, \texttt{mininal},
 		\texttt{report}, \texttt{beamer} class etcetera
-		\item	Specific user written classes are \texttt{memoir} and	\texttt{elsarticle} classes
-		\item	Classes come with options such as
+		\item	Specific user written classes are \texttt{Koma-Script} and	\texttt{elsarticle} classes
+		\item	Classes come with options such as\newline
 \begin{latexcode}
 \documentclass[12pt, a4paper]{article}
 \end{latexcode}
@@ -159,7 +152,7 @@
 	\begin{enumerate}
 		\item citing some people, note:
 		\begin{latexcode}
-\cite{refid} % in text citation
+\citet{refid} % in text citation
 \citep[][]{refid} % between parentheses
 		\end{latexcode}
 	\item Indicate where the bibliography should be	

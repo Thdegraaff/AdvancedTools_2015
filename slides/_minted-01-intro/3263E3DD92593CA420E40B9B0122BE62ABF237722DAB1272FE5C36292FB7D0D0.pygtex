@@ -8,5 +8,7 @@
 \PYG{c}{% including: references, tables,}
 \PYG{c}{% paragraphs, headers, etc.}
 
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}graphicx\PYG{n+nb}{\PYGZcb{}}
+
 \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}document\PYG{n+nb}{\PYGZcb{}}
 \end{Verbatim}
