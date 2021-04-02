@@ -1,25 +1,29 @@
 
-\begin{table}[hb!]
-\begin{center}
-\begin{tabular}{l D{.}{.}{2.5} D{.}{.}{2.5} }
-\toprule
- & \multicolumn{1}{c}{Model 1} & \multicolumn{1}{c}{Model 2} \\
-\midrule
-groupControl & 5.03^{***} &            \\
-             & (0.22)     &            \\
-groupTreated & 4.66^{***} & -0.37      \\
-             & (0.22)     & (0.31)     \\
-(Intercept)  &            & 5.03^{***} \\
-             &            & (0.22)     \\
-\midrule
-R$^2$        & 0.98       & 0.07       \\
-Adj. R$^2$   & 0.98       & 0.02       \\
-Num. obs.    & 20         & 20         \\
-RMSE         & 0.70       & 0.70       \\
-\bottomrule
-\multicolumn{3}{l}{\scriptsize{$^{***}p<0.001$, $^{**}p<0.01$, $^*p<0.05$}}
-\end{tabular}
-\caption{Two linear models.}
-\label{tab:3}
-\end{center}
-\end{table}
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sat, Jan 25, 2020 - 13:34:28
+% Requires LaTeX packages: dcolumn 
+\begin{table}[!htbp] \centering 
+  \caption{My experiment} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{2}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-3} 
+\\[-1.8ex] & \multicolumn{2}{c}{weight} \\ 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)}\\ 
+\hline \\[-1.8ex] 
+ groupControl & 5.032^{***} &  \\ 
+  & (0.209) &  \\ 
+  groupTreated & 5.761^{***} & 0.729^{**} \\ 
+  & (0.209) & (0.295) \\ 
+  Constant &  & 5.032^{***} \\ 
+  &  & (0.209) \\ 
+ \hline \\[-1.8ex] 
+Observations & \multicolumn{1}{c}{20} & \multicolumn{1}{c}{20} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.987} & \multicolumn{1}{c}{0.253} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{2}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 

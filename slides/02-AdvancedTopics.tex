@@ -55,20 +55,13 @@
 \begin{frame}{This session we look at}
 \begin{itemize}
 	\item Packages (controlling the preamble)
-	\newline
 	\item Figures (how to insert them?)
-	\newline
 	\item Tables (inserting plain tables)
-	\newline
 	\item Automatizing tables (complex tables)
-	\newline
 	\item Better looking references
-	\newline
 	\item Making slides
-	\newline
 \end{itemize}
 	Note: we will only touch upon these subjects
-	
 	Note2: All materials can be downloaded from \href{http://thomasdegraaff.nl/LaTeX-Workshop/notes/02-more-notes.html}{http://thomasdegraaff.nl/LaTeX-Workshop/notes/02-more-notes.html}
 \end{frame}
 
@@ -83,7 +76,7 @@
 			\begin{itemize}
 			\item amsmath, graphicx, subfig, marvosym, microtype, booktabs, lipsum,	pdflscape, fullpage, natbib
 		\end{itemize}
-		\item	format:
+		\item	format:\newline
 \scriptsize
 \begin{latexcode}
 \usepackage[colorlinks=true,citecolor=magenta,
@@ -98,7 +91,7 @@
 		\item	However, there is as well a \texttt{book}, \texttt{mininal},
 		\texttt{report}, \texttt{beamer} class etcetera
 		\item	Specific user written classes are \texttt{memoir} and	\texttt{elsarticle} classes
-		\item	Classes come with options such as
+		\item	Classes come with options such as \newline
 \begin{latexcode}
 \documentclass[12pt, a4paper]{article}
 \end{latexcode}
@@ -265,25 +258,31 @@ Figures can be \texttt{.pdf}, \texttt{.jpg}, \texttt{.png} and a whole lot of ot
 \subsection{Automizing tables}
 
 \begin{frame}[fragile]{Some R code}
-\tiny
+\footnotesize
 		\begin{minted}{r}
-library(texreg)
+library(stargazer)
 
-control <- c(4.17, 5.58, 5.18, 6.11, 4.50, 4.61, 5.17, 4.53, 5.33, 5.14)
-treated <- c(4.81, 4.17, 4.41, 3.59, 5.87, 3.83, 6.03, 4.89, 4.32, 4.69)
+control <- c(4.17, 5.58, 5.18, 6.11, 4.50,
+             4.61, 5.17, 4.53, 5.33, 5.14)
+treated <- c(5.81, 6.17, 5.41, 6.59, 5.87,
+             5.83, 6.03, 4.89, 4.32, 6.69)
 group <- gl(2, 10, 20, labels = c("Control", "Treated"))
 weight <- c(control, treated)
 m1 <- lm(weight ~ group - 1)
 m2 <- lm(weight ~ group)
 
-texreg(list(m1, m2), dcolumn = TRUE, booktabs = TRUE, file = "Table.tex",
-use.packages = FALSE, label = "tab:3", caption = "Two linear models.",
-float.pos = "hb!")
-		\end{minted}
-		which saves a file "Table.tex" to the same directory
+stargazer(m1, m2, out = "./table.tex",
+  title = "My experiment", keep.stat=c("rsq","n"),
+  no.space=TRUE, align = TRUE)
+\end{minted}
+		which saves a file "table.tex" to the same directory
 \end{frame}
 
-
+\begin{frame}[fragile]
+  \frametitle{Outcome}
+  \small
+  \input{table.tex}
+\end{frame}
 
 \begin{frame}[fragile]{Exercise: Be as lazy as possible!}
 Now 

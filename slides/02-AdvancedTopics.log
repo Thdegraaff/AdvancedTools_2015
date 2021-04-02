@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.8)  7 JAN 2020 20:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.8)  25 JAN 2020 13:35
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1794,9 +1794,6 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
  [3
 
 ]
-Overfull \vbox (57.64445pt too high) detected at line 73
- []
-
 [4
 
 ] [5
@@ -1870,7 +1867,7 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10.95> not available
 
 (./_minted-02-AdvancedTopics/77D19034359E8EEBC63722C88963CCC600596CDB6D7DD33595
 62B933918B670D.pygtex))
-Overfull \vbox (31.96318pt too high) detected at line 155
+Overfull \vbox (31.96318pt too high) detected at line 148
  []
 
 [10
@@ -1955,11 +1952,24 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
 \openout5 = `02-AdvancedTopics.pyg'.
 
  (./_minted-02-AdvancedTopics/default.pygstyle)
-(./_minted-02-AdvancedTopics/29ED22BCDC9C7FD10EB85BC6DB4E4CFDED55E0AC11EA7ACA39
+(./_minted-02-AdvancedTopics/5BE48A5848F0128E88277EE0BC87C123ED55E0AC11EA7ACA39
 73DB6376774D04.pygtex
-LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <6> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 15.
 )) [20
+
+]
+\openout4 = `02-AdvancedTopics.vrb'.
+
+ (./02-AdvancedTopics.vrb (./table.tex
+
+Package hyperref Warning: Ignoring empty anchor on input line 7.
+
+))
+Overfull \vbox (36.93538pt too high) detected at line 285
+ []
+
+[21
 
 ]
 \openout4 = `02-AdvancedTopics.vrb'.
@@ -1969,14 +1979,14 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <6> not available
 
 
 (./_minted-02-AdvancedTopics/2E7F67F54A0E9A3403FE23DAD16BDBA700596CDB6D7DD33595
-62B933918B670D.pygtex)) [21
+62B933918B670D.pygtex)) [22
 
-] [22
+] [23
 
 ]
 \openout4 = `02-AdvancedTopics.vrb'.
 
- (./02-AdvancedTopics.vrb) [23
+ (./02-AdvancedTopics.vrb) [24
 
 ]
 \openout4 = `02-AdvancedTopics.vrb'.
@@ -1987,7 +1997,7 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <6> not available
 
 
 (./_minted-02-AdvancedTopics/341BAAE2975C1303ADB23A64C34384A100596CDB6D7DD33595
-62B933918B670D.pygtex)) [24
+62B933918B670D.pygtex)) [25
 
 ]
 \openout4 = `02-AdvancedTopics.vrb'.
@@ -1995,11 +2005,11 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <6> not available
  (./02-AdvancedTopics.vrb
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 2.
-) [25
-
-] [26
+) [26
 
 ] [27
+
+] [28
 
 ]
 \tf@nav=\write11
@@ -2011,35 +2021,39 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 \tf@snm=\write13
 \openout13 = `02-AdvancedTopics.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 365.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 365.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 364.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 364.
 
 (./02-AdvancedTopics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 365.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 365.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 364.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 364.
 Package rerunfilecheck Info: File `02-AdvancedTopics.out' has not changed.
-(rerunfilecheck)             Checksum: 185DA128667762A7220554F843FDF539;645.
+(rerunfilecheck)             Checksum: 9B96CE1E56E907E11A50E5F477688775;645.
 runsystem(rm 02-AdvancedTopics.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 29335 strings out of 492995
- 598206 string characters out of 6132704
- 758399 words of memory out of 5000000
- 32031 multiletter control sequences out of 15000+600000
- 72093 words of font info for 123 fonts, out of 8000000 for 9000
+ 29369 strings out of 492995
+ 598705 string characters out of 6132704
+ 760271 words of memory out of 5000000
+ 32045 multiletter control sequences out of 15000+600000
+ 76702 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,13n,94p,1876b,876s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,15n,94p,1876b,877s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2017/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/urw/times/utmr8a.pfb>
-Output written on 02-AdvancedTopics.pdf (27 pages, 85301 bytes).
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
+/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/t
+imes/utmr8a.pfb>
+Output written on 02-AdvancedTopics.pdf (28 pages, 112310 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 68 named destinations out of 1000 (max. 500000)
- 35979 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 277 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 42123 words of extra memory for PDF output out of 42996 (max. 10000000)
 
